@@ -32,7 +32,7 @@ from time import time
 
 today = date.today()
 
-dateformat = "%d %B %Y"
+dateformat = "%d.%m - %Y"
 
 opt = argparse.ArgumentParser()
 opt.add_argument('-d', '--dry-run', dest='dryRun', default=False, action='store_true', help='Only parse changelogs and, if needed, the targetFile. (A .dry_changelog.yml will be output for debugging purposes.)')
@@ -105,8 +105,8 @@ if failed_cache_read and os.path.isfile(args.targetFile):
             for authorT in e.find_all('h3', {'class': 'author'}):
                 author = authorT.string
                 # Strip suffix
-                if author.endswith('updated:'):
-                    author = author[:-8]
+                if author.endswith(':') and author.startswith('Обновления'):
+                    author = author[11:-1]
                 author = author.strip()
 
                 # Find <ul>
@@ -193,7 +193,7 @@ with open(args.targetFile.replace('.htm', '.dry.htm') if args.dryRun else args.t
         for author in sorted(all_changelog_entries[_date].keys()):
             if len(all_changelog_entries[_date]) == 0:
                 continue
-            author_htm = '\t\t\t<h3 class="author">{author} updated:</h3>\n'.format(author=author)
+            author_htm = '\t\t\t<h3 class="author">Обновления {author}:</h3>\n'.format(author=author)
             author_htm += '\t\t\t<ul class="changes bgimages16">\n'
             changes_added = []
             for (css_class, change) in (dictToTuples(e)[0] for e in all_changelog_entries[_date][author]):
