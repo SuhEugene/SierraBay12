@@ -292,8 +292,8 @@ var/global/list/asset_datums = list()
 		"sounddel.png" = 'html/changelog-static/sounddel.png',
 		"spellcheck.png" = 'html/changelog-static/spellcheck.png',
 		"tweak.png" = 'html/changelog-static/tweak.png',
-		"changelog.css" = 'html/changelog-static/changelog.css',
-		"changelog.html" = 'html/changelog-static/changelog.html'
+		"changelog.css" = 'html/changelog.css',
+		"changelog.html" = 'html/changelog.html'
 	)
 
 /*
