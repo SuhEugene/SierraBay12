@@ -448,7 +448,7 @@
 	set category = "OOC"
 
 	var/datum/asset/changelog_assets = get_asset_datum(/datum/asset/simple/changelog)
-	changelog_assets.send(owner)
+	changelog_assets.send(src)
 
 	show_browser(src, 'html/changelog.html', "window=changes;size=675x650")
 	if (GLOB.changelog_hash && prefs.lastchangelog != GLOB.changelog_hash)
