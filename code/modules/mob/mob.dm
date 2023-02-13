@@ -446,24 +446,10 @@
 /client/verb/changes()
 	set name = "Changelog"
 	set category = "OOC"
-	getFiles(
-		'html/changelog-static/admin.png',
-		'html/changelog-static/balance.png',
-		'html/changelog-static/bugfix.png',
-		'html/changelog-static/experiment.png',
-		'html/changelog-static/imageadd.png',
-		'html/changelog-static/imagedel.png',
-		'html/changelog-static/maptweak.png',
-		'html/changelog-static/rscadd.png',
-		'html/changelog-static/rscdel.png',
-		'html/changelog-static/wip.png',
-		'html/changelog-static/soundadd.png',
-		'html/changelog-static/sounddel.png',
-		'html/changelog-static/spellcheck.png',
-		'html/changelog-static/tweak.png',
-		'html/changelog.css',
-		'html/changelog.html'
-		)
+
+	var/datum/asset/changelog_assets = get_asset_datum(/datum/asset/simple/changelog)
+	changelog_assets.send(owner)
+
 	show_browser(src, 'html/changelog.html', "window=changes;size=675x650")
 	if (GLOB.changelog_hash && prefs.lastchangelog != GLOB.changelog_hash)
 		prefs.lastchangelog = GLOB.changelog_hash
