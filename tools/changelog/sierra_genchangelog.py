@@ -194,15 +194,15 @@ with open(args.targetFile.replace('.htm', '.dry.htm') if args.dryRun else args.t
             if len(all_changelog_entries[_date]) == 0:
                 continue
             author_htm = '\t\t\t<h3 class="author">Обновления {author}:</h3>\n'.format(author=author)
-            author_htm += '\t\t\t<ul class="changes bgimages16">\n'
+            author_htm += '\t\t\t<div class="changes bgimages16">\n'
             changes_added = []
             for (css_class, change) in (dictToTuples(e)[0] for e in all_changelog_entries[_date][author]):
                 if change in changes_added:
                     continue
                 write_entry = True
                 changes_added += [change]
-                author_htm += '\t\t\t\t<li class="{css_class}">{change}</li>\n'.format(css_class=css_class, change=change.strip())
-            author_htm += '\t\t\t</ul>\n'
+                author_htm += '\t\t\t\t<div class="log {css_class}">{change}</div>\n'.format(css_class=css_class, change=change.strip())
+            author_htm += '\t\t\t</div>\n'
             if len(changes_added) > 0:
                 entry_htm += author_htm
         if write_entry:

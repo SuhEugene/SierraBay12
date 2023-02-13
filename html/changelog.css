@@ -39,36 +39,44 @@ a:hover { text-decoration: underline; }
 	margin-top: 24px;
 	margin-bottom: 8px;
 	color:#6cbfc4;
-	border-bottom:2px solid #6cbfc4;
+	border-bottom: 2px solid #6cbfc4;
 	width: 60%;
-	padding:2px 0;
+	padding: 2px 0;
 	font-size: 16px;
-	font-weight:bold;
+	font-weight: bold;
 }
 .author {
 	margin-top: 12px;
 	margin-bottom: 6px;
 	padding-left: 10px;
-	font-weight:bold;
+	font-weight: bold;
 	font-size: 14px;
 }
 .changes {
 	list-style:none;
 	margin: 5px 0;
-	padding:0 0 0 25px;
+	padding: 0 0 0 25px;
 	font-size: 14px;
 }
 
 a img {border:none;}
-.bgimages16 li {
+.bgimages16 .log {
+	margin-bottom: 4px;
 	padding: 6px 12px 6px 32px;
 	background-position: 8px center;
-	background-repeat:no-repeat;
-	border:1px solid #333;
+	background-repeat: no-repeat;
 	background-color: #333;
-	border-left:4px solid #555;
-	margin-bottom: 4px;
+	border: 1px solid #333;
+	border-left: 4px solid #555;
+	border-radius: 0;
 }
+.bgimages16 .log:first-child {
+	border-top-right-radius: 8px;
+}
+.bgimages16 .log:last-child {
+	border-bottom-right-radius: 8px;
+}
+
 .bgimages16 img {
 	padding: 4px;
 	border-radius: 2px;
