@@ -6,6 +6,7 @@
 #include "client\verbs.dm"
 
 // Objects
+#include "objects\structures\extinguisher_cabinet.dm"
 #include "objects\structures\wall_frame.dm"
 #include "objects\structures\wallframe_spawner.dm"
 #endif
