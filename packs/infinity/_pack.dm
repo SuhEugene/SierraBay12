@@ -56,6 +56,7 @@
 // Structures
 #include "structures\barrier.dm"
 #include "structures\chairs.dm"
+#include "structures\ladder_mobile.dm"
 #include "structures\signs.dm"
 #include "structures\table_presets.dm"
 #endif

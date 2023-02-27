@@ -783,6 +783,7 @@
 /turf/simulated/wall/prepainted,
 /area/maintenance/firstdeck/aftstarboard)
 "abI" = (
+/obj/item/ladder_mobile,
 /turf/simulated/floor/tiled/white,
 /area/maintenance/firstdeck/aftstarboard)
 "abJ" = (
@@ -21570,6 +21571,7 @@
 /obj/structure/sign/warning/fall{
 	pixel_y = -32
 	},
+/obj/item/ladder_mobile,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo/upper)
 "aKg" = (

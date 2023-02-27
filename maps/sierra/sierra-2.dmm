@@ -3188,6 +3188,8 @@
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/steel_reinforced,
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
 "agq" = (
@@ -4740,6 +4742,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/item/ladder_mobile,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/heads/captain/secret_room/level_one)
 "aja" = (
