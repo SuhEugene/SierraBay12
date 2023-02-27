@@ -21394,6 +21394,7 @@
 /obj/item/device/taperecorder,
 /obj/structure/closet/crate,
 /obj/machinery/light/small,
+/obj/item/laserframe,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "IM" = (

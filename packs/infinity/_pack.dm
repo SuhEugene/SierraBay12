@@ -35,7 +35,9 @@
 
 #include "items\projectile\ammunition\boxes.dm"
 #include "items\projectile\ammunition\bullets.dm"
+
 #include "items\projectile\guns\automatic.dm"
+#include "items\projectile\guns\energy\laser_handmade.dm"
 
 #include "items\multimeter.dm"
 #include "items\powertools.dm"
