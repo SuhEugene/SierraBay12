@@ -31,7 +31,7 @@
 /obj/item/projectile/beam/confuseray/lkw
 	damage = 10
 	agony = 10
-	damage_type = BURN
+	damage_type = DAMAGE_BURN
 	life_span = 15
 
 /obj/item/projectile/beam/lkw
