@@ -2,8 +2,12 @@
 #define CONTENT_PACK_INFINITY
 
 // DEFINES
-#include "_defines\clothing.dm"
-#include "_defines\guns.dm"
+#include "__defines\clothing.dm"
+#include "__defines\guns.dm"
+
+// DATUMS
+#include "_datums\loadout\gears.dm"
+#include "_datums\reagents\experimental.dm"
 
 // Clothing
 #include "clothing\head\berets.dm"
@@ -33,6 +37,7 @@
 #include "items\music_player\subtypes_player.dm"
 #include "items\music_player\subtypes_tape.dm"
 
+#include "items\chemistry.dm"
 #include "items\grown_inedible.dm"
 #include "items\modular_computer.dm"
 #include "items\multimeter.dm"
@@ -45,9 +50,6 @@
 
 #include "items\projectile\guns\automatic.dm"
 #include "items\projectile\guns\energy\laser_handmade.dm"
-
-// Loadout
-#include "loadout\gears.dm"
 
 // Machines
 #include "machinery\computer_presets.dm"

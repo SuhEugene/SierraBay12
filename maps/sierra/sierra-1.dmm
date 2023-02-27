@@ -9809,6 +9809,7 @@
 /obj/structure/table/glass/pglass,
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/purple/border,
+/obj/item/reagent_containers/glass/beaker/vial/away,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/gas)
 "pI" = (
