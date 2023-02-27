@@ -104,7 +104,6 @@
 			update_icon()
 
 /obj/structure/barrier/use_tool(obj/item/tool, mob/user, list/click_params)
-	. = ..()
 	if(isWelder(tool))
 		var/obj/item/weldingtool/WT = tool
 		if(health == maxhealth)
@@ -156,6 +155,7 @@
 		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
 		take_damage(tool.force)
 		return TRUE
+	return ..()
 
 /obj/structure/barrier/bullet_act(obj/item/projectile/P)
 	..()
@@ -257,7 +257,6 @@
 		qdel(src)
 
 /obj/item/barrier/use_tool(obj/item/tool, mob/user, list/click_params)
-	. = ..()
 	if(health != 200 && isWelder(tool))
 		var/obj/item/weldingtool/WT = tool
 		if(!WT.isOn())
@@ -274,3 +273,4 @@
 		else
 			to_chat(user, "<span class='notice'>You need more welding fuel to complete this task.</span>")
 			return TRUE
+	return ..()
