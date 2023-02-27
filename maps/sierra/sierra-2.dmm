@@ -14130,6 +14130,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/structure/table/woodentable/mahogany,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
 /turf/simulated/floor/tiled/dark,
 /area/chapel/main)
 "azD" = (
@@ -29823,6 +29824,8 @@
 	dir = 4
 	},
 /obj/structure/table/woodentable/mahogany,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/chapel/main)
 "bdO" = (
@@ -29903,6 +29906,8 @@
 	pixel_y = -20
 	},
 /obj/structure/table/woodentable/mahogany,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/chapel/main)
 "bdZ" = (
@@ -29991,6 +29996,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/chapel/office)
 "beh" = (
@@ -30014,6 +30022,9 @@
 	pixel_y = -20;
 	req_access = list("ACCESS_CHAPEL_STORAGE")
 	},
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/chapel/office)
 "bej" = (
