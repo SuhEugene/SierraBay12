@@ -104,6 +104,7 @@
 			update_icon()
 
 /obj/structure/barrier/use_tool(obj/item/tool, mob/user, list/click_params)
+
 	if(isWelder(tool))
 		var/obj/item/weldingtool/WT = tool
 		if(health == maxhealth)
@@ -123,6 +124,7 @@
 			to_chat(user, "<span class='notice'>You need more welding fuel to complete this task.</span>")
 		update_icon()
 		return TRUE
+
 	if(isScrewdriver(tool))
 		if(density)
 			visible_message("<span class='danger'>[user] begins to [deployed ? "un" : ""]deploy \the [src]...</span>")
@@ -136,6 +138,7 @@
 					basic_chance = 50
 		update_icon()
 		return TRUE
+
 	if(isCrowbar(tool))
 		if(!deployed && !density)
 			visible_message("<span class='danger'>[user] is begins disassembling \the [src]...</span>")
@@ -154,8 +157,7 @@
 	else
 		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
 		take_damage(tool.force)
-		return TRUE
-	return ..()
+		return ..()
 
 /obj/structure/barrier/bullet_act(obj/item/projectile/P)
 	..()
