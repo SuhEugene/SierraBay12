@@ -797,6 +797,7 @@
 /turf/simulated/floor/tiled,
 /area/maintenance/firstdeck/aftstarboard)
 "abM" = (
+/obj/item/stool/padded/red,
 /turf/simulated/floor/tiled/dark,
 /area/maintenance/firstdeck/aftstarboard)
 "abN" = (
@@ -11939,7 +11940,7 @@
 /obj/effect/floor_decal/corner/red/border{
 	dir = 8
 	},
-/obj/item/stool/padded,
+/obj/item/stool/padded/red,
 /turf/simulated/floor/tiled/steel_grid,
 /area/security/range)
 "avn" = (
@@ -19658,6 +19659,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/security/sierra/equipment)
 "aHw" = (
+/obj/item/stool/padded/red,
 /turf/simulated/floor/tiled/steel_grid,
 /area/security/sierra/equipment)
 "aHx" = (
@@ -37550,7 +37552,7 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge/upper)
 "hJp" = (
-/obj/item/stool/padded,
+/obj/item/stool/padded/red,
 /turf/simulated/floor/tiled,
 /area/security/range)
 "hKi" = (
@@ -41263,6 +41265,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
+"tqF" = (
+/obj/item/stool/padded/red,
+/obj/random/junk,
+/turf/simulated/floor/wood/walnut,
+/area/maintenance/firstdeck/aftstarboard)
 "tqS" = (
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/paleblue/border,
@@ -68629,7 +68636,7 @@ aal
 aav
 aam
 aaM
-acB
+tqF
 abL
 acE
 abf

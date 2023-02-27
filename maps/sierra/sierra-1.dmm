@@ -24573,6 +24573,7 @@
 	dir = 1;
 	pixel_y = -29
 	},
+/obj/item/stool/padded/red,
 /turf/simulated/floor/tiled,
 /area/vacant/cargo)
 "Ol" = (

@@ -38,6 +38,7 @@
 #include "items\music_player\subtypes_tape.dm"
 
 #include "items\carpets.dm"
+#include "items\chairs.dm"
 #include "items\chemistry.dm"
 #include "items\grown_inedible.dm"
 #include "items\modular_computer.dm"
