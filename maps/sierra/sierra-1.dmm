@@ -28135,6 +28135,7 @@
 /area/hallway/primary/thirddeck/center)
 "UF" = (
 /obj/structure/table/rack,
+/obj/item/modular_computer/pda/wrist,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tank,

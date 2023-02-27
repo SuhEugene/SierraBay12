@@ -33,6 +33,7 @@
 #include "items\music_player\subtypes_player.dm"
 #include "items\music_player\subtypes_tape.dm"
 
+#include "items\modular_computer.dm"
 #include "items\multimeter.dm"
 #include "items\powertools.dm"
 #include "items\towels.dm"
@@ -43,6 +44,9 @@
 
 #include "items\projectile\guns\automatic.dm"
 #include "items\projectile\guns\energy\laser_handmade.dm"
+
+// Loadout
+#include "loadout\gears.dm"
 
 // Machines
 #include "machinery\computer_presets.dm"
