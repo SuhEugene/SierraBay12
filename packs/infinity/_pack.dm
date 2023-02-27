@@ -33,15 +33,16 @@
 #include "items\music_player\subtypes_player.dm"
 #include "items\music_player\subtypes_tape.dm"
 
+#include "items\multimeter.dm"
+#include "items\powertools.dm"
+#include "items\towels.dm"
+
+// Guns
 #include "items\projectile\ammunition\boxes.dm"
 #include "items\projectile\ammunition\bullets.dm"
 
 #include "items\projectile\guns\automatic.dm"
 #include "items\projectile\guns\energy\laser_handmade.dm"
-
-#include "items\multimeter.dm"
-#include "items\powertools.dm"
-#include "items\towels.dm"
 
 // Machines
 #include "machinery\computer_presets.dm"
