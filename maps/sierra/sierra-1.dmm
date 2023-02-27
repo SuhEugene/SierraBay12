@@ -21810,7 +21810,13 @@
 "Jr" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack/dark,
-/obj/item/stack/tile/carpet/fifty,
+/obj/item/stack/tile/carpetred/ten,
+/obj/item/stack/tile/carpetpurple/ten,
+/obj/item/stack/tile/carpetorange/ten,
+/obj/item/stack/tile/carpetgreen/ten,
+/obj/item/stack/tile/carpetblue2/ten,
+/obj/item/stack/tile/carpetblue/ten,
+/obj/item/stack/tile/carpet/ten,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "Js" = (
