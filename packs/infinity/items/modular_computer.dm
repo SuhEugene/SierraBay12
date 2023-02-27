@@ -59,13 +59,6 @@
 	if(istype(H) && H.wear_id == src)
 		H.update_inv_wear_id()
 
-/obj/item/modular_computer/pda/wrist/update_overlays()
-	. = ..()
-	var/datum/extension/interactive/ntos/os = get_extension(src, /datum/extension/interactive/ntos)
-	if(enabled && os)
-		var/image/screen_overlay = os.get_screen_overlay()
-		. += emissive_appearance(screen_overlay.icon, screen_overlay.icon_state)
-
 /obj/item/modular_computer/pda/wrist/AltClick(var/mob/user)
 	if(!CanPhysicallyInteract(user))
 		return
