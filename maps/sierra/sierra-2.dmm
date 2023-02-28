@@ -35417,6 +35417,7 @@
 "jVF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/table/woodentable/walnut,
+/obj/item/storage/box/donkpocket_dessert,
 /turf/simulated/floor/wood/walnut,
 /area/vacant/gambling)
 "jXb" = (

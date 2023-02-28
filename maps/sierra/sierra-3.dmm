@@ -8205,6 +8205,10 @@
 	pixel_x = 4;
 	pixel_y = 16
 	},
+/obj/item/storage/box/donkpocket_fruit{
+	pixel_x = -7;
+	pixel_y = 13
+	},
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/NT,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/adjutants)
@@ -26354,6 +26358,8 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 4
 	},
+/obj/item/storage/box/donkpocket_protein,
+/obj/item/storage/box/donkpocket_vegetable,
 /turf/simulated/floor/tiled,
 /area/security/prison)
 "aQW" = (

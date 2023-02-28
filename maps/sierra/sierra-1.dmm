@@ -20869,6 +20869,7 @@
 /obj/item/ironing_iron,
 /obj/item/device/toner,
 /obj/structure/closet/crate,
+/obj/item/storage/box/donkpocket_mixed,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "HV" = (
