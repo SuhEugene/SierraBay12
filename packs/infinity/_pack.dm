@@ -41,7 +41,7 @@
 #include "items\carpets.dm"
 #include "items\chairs.dm"
 #include "items\chemistry.dm"
-#include "items\grown_inedible.dm"
+#include "items\grown.dm"
 #include "items\modular_computer.dm"
 #include "items\multimeter.dm"
 #include "items\powertools.dm"
