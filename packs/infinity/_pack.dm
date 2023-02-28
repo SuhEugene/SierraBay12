@@ -46,6 +46,7 @@
 #include "items\multimeter.dm"
 #include "items\powertools.dm"
 #include "items\towels.dm"
+#include "items\toys.dm"
 
 // Guns
 #include "items\projectile\ammunition\boxes.dm"

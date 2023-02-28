@@ -9041,6 +9041,7 @@
 /obj/item/storage/secure/safe{
 	pixel_x = 32
 	},
+/obj/item/toy/sierramodel,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/cobed)
 "aqP" = (
