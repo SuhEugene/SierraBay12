@@ -3,3 +3,6 @@
 
 /obj/machinery/hologram/holopad
 	icon = 'packs/infinity/icons/obj/stationobjs.dmi'
+
+/obj/machinery/power/apc/high/critical
+	is_critical = 1

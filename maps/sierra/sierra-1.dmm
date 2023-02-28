@@ -677,7 +677,7 @@
 	pixel_x = -20;
 	req_access = list("ACCESS_ENGINEERING")
 	},
-/obj/machinery/power/apc{
+/obj/machinery/power/apc/high/critical{
 	dir = 1;
 	name = "north bump";
 	pixel_y = 24
@@ -20592,9 +20592,9 @@
 	dir = 1
 	},
 /obj/structure/cable/green,
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
+/obj/machinery/power/apc/high/critical{
+	pixel_y = -24;
+	name = "south bump"
 	},
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
