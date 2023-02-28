@@ -61,6 +61,7 @@
 #include "machinery\machines.dm"
 #include "machinery\lighting.dm"
 #include "machinery\suit_storage.dm"
+#include "machinery\survival_pod.dm"
 
 // Mobs
 #include "mobs\simple\fox.dm"

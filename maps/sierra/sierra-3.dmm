@@ -4287,7 +4287,7 @@
 	c_tag = "Infirmary - Staging";
 	dir = 8
 	},
-/obj/machinery/sleeper{
+/obj/machinery/sleeper/survival_pod{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -4763,7 +4763,9 @@
 /obj/machinery/light/spot{
 	dir = 4
 	},
-/obj/structure/roller_bed,
+/obj/machinery/sleeper/survival_pod{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
 "ajh" = (
@@ -36279,7 +36281,7 @@
 "dEW" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/reagent_dispensers/water_cooler{
+/obj/machinery/sleeper/survival_pod{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -38304,7 +38306,9 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/flora/pottedplant/tropical,
+/obj/machinery/sleeper/survival_pod{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/hallway/infirmary)
 "klE" = (
@@ -39141,7 +39145,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
-/obj/structure/table/reinforced,
+/obj/structure/reagent_dispensers/water_cooler{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/hallway/infirmary)
 "mvB" = (

@@ -6476,6 +6476,12 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod/escape_pod1/station)
+"kS" = (
+/obj/machinery/sleeper/survival_pod{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/vacant/infirmary)
 "kT" = (
 /obj/structure/closet/secure_closet/scientist_sierra,
 /obj/machinery/light{
@@ -22887,6 +22893,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/guppy_hangar/start)
 "Lt" = (
@@ -23854,7 +23863,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
-/obj/structure/bed/chair/shuttle/blue{
+/obj/machinery/sleeper/survival_pod{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -26211,15 +26220,15 @@
 /obj/effect/floor_decal/borderfloor/corner{
 	dir = 1
 	},
-/obj/machinery/sleeper{
-	dir = 8
-	},
 /obj/structure/closet/walllocker{
 	pixel_y = 32
 	},
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/med_pouch/oxyloss,
 /obj/item/storage/med_pouch/oxyloss,
+/obj/machinery/sleeper/survival_pod{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/guppy_hangar/start)
 "QY" = (
@@ -27974,9 +27983,9 @@
 /obj/effect/floor_decal/corner/paleblue/bordercorner2{
 	dir = 10
 	},
-/obj/structure/table/reinforced,
-/obj/item/roller_bed,
-/obj/item/roller_bed,
+/obj/machinery/sleeper/survival_pod{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "Un" = (
@@ -29279,6 +29288,9 @@
 	dir = 4;
 	pixel_y = 11
 	},
+/obj/machinery/sleeper/survival_pod{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "WT" = (
@@ -29698,6 +29710,8 @@
 /obj/structure/closet/walllocker{
 	pixel_y = 32
 	},
+/obj/item/roller_bed,
+/obj/item/roller_bed,
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
 "XK" = (
@@ -56345,7 +56359,7 @@ RV
 xR
 fg
 rw
-zl
+kS
 II
 CV
 RV
