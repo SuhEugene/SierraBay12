@@ -16,7 +16,7 @@
 
 	interact_sounds = list('packs/infinity/sound/items/ui_pipboy_select.wav')
 
-/obj/item/modular_computer/pda/wrist/get_mob_overlay(var/mob/user_mob, var/slot)
+/obj/item/modular_computer/pda/wrist/get_mob_overlay(mob/user_mob, slot)
 	var/image/ret = ..()
 	var/datum/extension/interactive/ntos/os = get_extension(src, /datum/extension/interactive/ntos)
 	if(slot == slot_wear_id_str)
@@ -66,7 +66,7 @@
 		var/image/_screen_overlay = os.get_screen_overlay()
 		. += emissive_appearance(_screen_overlay.icon, _screen_overlay.icon_state)
 
-/obj/item/modular_computer/pda/wrist/AltClick(var/mob/user)
+/obj/item/modular_computer/pda/wrist/AltClick(mob/user)
 	if(!CanPhysicallyInteract(user))
 		return
 	if(card_slot?.stored_card)
@@ -74,7 +74,7 @@
 	else
 		..()
 
-/obj/item/modular_computer/pda/wrist/attack_hand(var/mob/user)
+/obj/item/modular_computer/pda/wrist/attack_hand(mob/user)
 	if(loc == user)
 		if(user.incapacitated() || user.restrained())
 			return
@@ -83,7 +83,7 @@
 			return attack_self(user)
 	return ..()
 
-/obj/item/modular_computer/pda/wrist/MouseDrop(var/obj/over_object)
+/obj/item/modular_computer/pda/wrist/MouseDrop(obj/over_object)
 	if(ishuman(usr))
 		if(loc != usr) return
 		if(usr.restrained() || usr.incapacitated()) return

@@ -13,7 +13,7 @@
 
 /obj/item/storage/bar_fruit_jar/on_update_icon()
 	. = ..()
-	if(contents.len)
+	if(length(contents))
 		icon_state = "fruitjar"
 	else
 		icon_state = "fruitjar_empty"
