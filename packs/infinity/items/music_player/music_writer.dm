@@ -40,7 +40,7 @@
 	writing = FALSE
 	update_icon()
 
-/obj/machinery/media/music_writer/proc/set_on(var/mob/M)
+/obj/machinery/media/music_writer/proc/set_on(mob/M)
 	if(M)
 		customer = M
 		writing = TRUE
@@ -92,7 +92,7 @@
 /obj/machinery/media/music_writer/attack_ai(mob/user)
 	return
 
-/obj/machinery/media/music_writer/OnTopic(var/user, var/list/href_list)
+/obj/machinery/media/music_writer/OnTopic(mob/user, list/href_list)
 	if(href_list["write"])
 		if(!writing && !customer && disk && cooldown == 0)
 			if(disk.rewrites_left > 0)
