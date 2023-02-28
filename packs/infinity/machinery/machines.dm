@@ -7,5 +7,8 @@
 /obj/machinery/door/blast/shutters/open
 	icon_state = "shutter0"
 
+/obj/machinery/door/blast/regular/open
+	icon_state = "pdoor0"
+
 /obj/machinery/power/apc/high/critical
 	is_critical = 1
