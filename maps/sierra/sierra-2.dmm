@@ -30960,12 +30960,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
 "bgm" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 1;
-	icon_state = "console"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
+	},
+/obj/machinery/computer/modular/preset/civilian/professional{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/chapel/office)

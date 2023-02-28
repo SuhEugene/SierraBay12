@@ -57,6 +57,7 @@
 #include "items\projectile\guns\energy\laser_handmade.dm"
 
 // Machines
+#include "machinery\computer.dm"
 #include "machinery\machines.dm"
 #include "machinery\lighting.dm"
 #include "machinery\suit_storage.dm"

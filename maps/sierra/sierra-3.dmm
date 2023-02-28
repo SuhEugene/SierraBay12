@@ -20482,9 +20482,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/crew_quarters/heads/office/rd)
 "aIF" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4
-	},
 /obj/structure/filingcabinet/wallcabinet{
 	pixel_y = 26
 	},
@@ -20499,6 +20496,9 @@
 	},
 /obj/effect/floor_decal/corner/purple/bordercorner2{
 	dir = 1
+	},
+/obj/machinery/computer/modular/preset/civilian/professional{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/assembly/robotics)
@@ -22342,10 +22342,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/unused_office)
 "aLe" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 1;
-	icon_state = "console"
-	},
 /obj/effect/floor_decal/borderfloor{
 	dir = 10
 	},
@@ -22359,6 +22355,9 @@
 /obj/structure/sign/poster{
 	pixel_x = -32;
 	poster_type = /singleton/poster/bay_43
+	},
+/obj/machinery/computer/modular/preset/civilian/professional{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/crew_quarters/unused_office)
