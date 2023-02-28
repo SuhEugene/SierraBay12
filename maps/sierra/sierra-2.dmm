@@ -15333,7 +15333,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/machinery/computer/modular/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -30376,10 +30376,10 @@
 /obj/effect/floor_decal/borderfloorblack/corner2{
 	dir = 6
 	},
-/obj/machinery/computer/modular/preset/command,
 /obj/effect/floor_decal/corner/darkblue/bordercorner2{
 	dir = 6
 	},
+/obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hall/level_one)
 "bfa" = (
@@ -39639,7 +39639,7 @@
 /area/crew_quarters/galley)
 "vqt" = (
 /obj/effect/floor_decal/corner/black/mono,
-/obj/machinery/computer/modular/preset/command{
+/obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
