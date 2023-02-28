@@ -83,7 +83,7 @@
 	if(cooldown)
 		dat = "[src] is recalibrating its systems for a new rewrite. Please, wait [cooldown/10] seconds."
 
-	playsound(src, 'infinity/sound/machines/console/console2.ogg', 40, 1)
+	playsound(src, 'packs/infinity/sound/machines/console/console2.ogg', 40, 1)
 
 	var/datum/browser/popup = new(user, "musicwriter", "Music Writer", 200, 100)
 	popup.set_content(dat)
@@ -101,13 +101,13 @@
 					cooldown += 3 MINUTES
 					sleep(4 SECONDS)
 
-					playsound(src, 'infinity/sound/machines/console/console_success.ogg', 40, 1)
+					playsound(src, 'packs/infinity/sound/machines/console/console_success.ogg', 40, 1)
 					sleep(2 SECONDS)
 
 					eject(usr)
 					set_off()
 			else
-				playsound(src, 'infinity/sound/machines/console/console_error.ogg', 40, 1)
+				playsound(src, 'packs/infinity/sound/machines/console/console_error.ogg', 40, 1)
 				to_chat(usr, SPAN_DANGER("You can't rewrite this disk - the tape was rewriten too many times."))
 
 	if(href_list["eject"])
@@ -134,7 +134,7 @@
 
 	var/new_sound_file = input(user, "Pick file:","File") as null|sound
 	if(!new_sound_file)
-		playsound(src, 'infinity/sound/machines/console/console_error.ogg', 40, 1)
+		playsound(src, 'packs/infinity/sound/machines/console/console_error.ogg', 40, 1)
 		set_off()
 		return
 
@@ -142,7 +142,7 @@
 
 	var/new_name = input(user, "Name the cassette:") as null|text
 	if(!new_name)
-		playsound(src, 'infinity/sound/machines/console/console_error.ogg', 40, 1)
+		playsound(src, 'packs/infinity/sound/machines/console/console_error.ogg', 40, 1)
 		set_off()
 		return
 
@@ -151,7 +151,7 @@
 	new_name = sanitizeSafe(new_name)
 
 	if(new_sound_file && new_name && writing)
-		playsound(src, 'infinity/sound/machines/console/console.ogg', 40)
+		playsound(src, 'packs/infinity/sound/machines/console/console.ogg', 40)
 
 		disk.SetName("cassette - \"[new_name]\"")
 
@@ -168,6 +168,6 @@
 	return 0
 
 /obj/machinery/media/music_writer/proc/eject(mob/user)
-	playsound(src, 'infinity/sound/machines/console/console3.ogg', 40, 1)
+	playsound(src, 'packs/infinity/sound/machines/console/console3.ogg', 40, 1)
 	user.put_in_hands(disk)
 	disk = null
