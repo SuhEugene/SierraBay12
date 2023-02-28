@@ -14961,6 +14961,8 @@
 	},
 /obj/item/tank/oxygen_emergency_double,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/tank/oxygen_yellow,
+/obj/item/tank/oxygen_yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
 "aAY" = (

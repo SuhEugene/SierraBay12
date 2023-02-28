@@ -24555,6 +24555,7 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped,
+/obj/item/tank/oxygen_yellow,
 /turf/simulated/floor/plating,
 /area/vacant/cargo)
 "Oi" = (
