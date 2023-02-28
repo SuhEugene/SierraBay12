@@ -21472,6 +21472,7 @@
 /obj/item/storage/box/glowsticks,
 /obj/item/tape_roll,
 /obj/item/stock_parts/smes_coil/weak,
+/obj/item/storage/box/lights/led_neon,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "IS" = (
@@ -28164,6 +28165,7 @@
 	dir = 10
 	},
 /obj/random/tech_supply,
+/obj/item/storage/box/lights/led_neon,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/auxillary/port)
 "UG" = (

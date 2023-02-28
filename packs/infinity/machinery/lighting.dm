@@ -65,3 +65,6 @@
 			qdel(src)
 			user.put_in_any_hand_if_possible(new /obj/item/light/led_neon/large(T))
 
+/obj/item/storage/box/lights/led_neon
+	name = "box of neon leds"
+	startswith = list(/obj/item/light/led_neon/small = 7)
