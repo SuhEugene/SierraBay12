@@ -40217,6 +40217,10 @@
 	dir = 4
 	},
 /obj/structure/table/steel_reinforced,
+/obj/item/storage/bar_fruit_jar{
+	pixel_x = 4;
+	pixel_y = 16
+	},
 /turf/simulated/floor/wood/ebony,
 /area/crew_quarters/bar)
 "xiV" = (
