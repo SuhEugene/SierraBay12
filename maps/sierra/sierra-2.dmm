@@ -11304,7 +11304,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/glass/engineering{
+/obj/machinery/door/airlock/glass/engineering/no_stripe{
 	name = "Engineering Hallway"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -12440,13 +12440,13 @@
 "awT" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/glass/engineering{
-	name = "Engineering Bay"
-	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "eng_lockdown_emg1";
 	name = "Emergency Exit"
+	},
+/obj/machinery/door/airlock/glass/engineering/no_stripe{
+	name = "Engineering Bay"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/engineering/engineering_monitoring)
