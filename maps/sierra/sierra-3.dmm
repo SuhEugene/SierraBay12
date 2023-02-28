@@ -25426,6 +25426,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/computer/modular/preset/aislot/sysadmin{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/tcommsat/computer)
 "aPK" = (
