@@ -24818,6 +24818,9 @@
 	c_tag = "Xenobiology - Desk";
 	dir = 4
 	},
+/obj/machinery/computer/modular/preset/aislot/research{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/level1)
 "aUf" = (
