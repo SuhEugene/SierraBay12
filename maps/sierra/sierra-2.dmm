@@ -28552,6 +28552,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/machinery/media/music_writer{
+	pixel_x = -28
+	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge_big)
 "bbi" = (
@@ -39064,6 +39067,12 @@
 	},
 /turf/simulated/floor/wood/mahogany,
 /area/crew_quarters/lounge_big)
+"tUN" = (
+/obj/machinery/media/music_writer{
+	pixel_y = 28
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/lounge)
 "tYh" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -40223,6 +40232,9 @@
 /obj/item/storage/bar_fruit_jar{
 	pixel_x = 4;
 	pixel_y = 16
+	},
+/obj/machinery/media/music_writer{
+	pixel_x = 28
 	},
 /turf/simulated/floor/wood/ebony,
 /area/crew_quarters/bar)
@@ -57915,7 +57927,7 @@ cag
 aBg
 aSy
 aGY
-aXs
+tUN
 aXs
 aME
 aZi

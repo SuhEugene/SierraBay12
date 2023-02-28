@@ -34,6 +34,7 @@
 // Items
 #include "items\music_player\_music_player.dm"
 #include "items\music_player\_music_tape.dm"
+#include "items\music_player\music_writer.dm"
 #include "items\music_player\subtypes_player.dm"
 #include "items\music_player\subtypes_tape.dm"
 
