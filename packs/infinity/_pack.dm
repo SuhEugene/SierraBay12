@@ -47,6 +47,7 @@
 #include "items\powertools.dm"
 #include "items\towels.dm"
 #include "items\toys.dm"
+#include "items\wheelchair_kit.dm"
 
 // Guns
 #include "items\projectile\ammunition\boxes.dm"
