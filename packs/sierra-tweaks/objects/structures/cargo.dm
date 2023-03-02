@@ -193,7 +193,7 @@
 			if(!possible_turf)
 				continue
 			options += possible_turf
-		if(options.len)
+		if(length(options))
 			dest = pick(options)
 		else
 			dest = get_turf(src)	//otherwise just dump it on the same turf as the vehicle
