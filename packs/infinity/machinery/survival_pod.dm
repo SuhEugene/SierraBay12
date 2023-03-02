@@ -10,7 +10,7 @@
 /obj/machinery/sleeper/survival_pod/ui_interact(mob/user, ui_key = "main", datum/nanoui/ui = null, force_open = 1, datum/topic_state/state = GLOB.outside_state)
 	var/data[0]
 
-	data["power"] = stat & (NOPOWER|BROKEN) ? 0 : 1
+	data["power"] = stat & (MACHINE_BROKEN_GENERIC|MACHINE_STAT_NOPOWER) ? 0 : 1
 
 	if(occupant)
 		var/scan = user.skill_check(SKILL_MEDICAL, SKILL_ADEPT) ? medical_scan_results(occupant) : "<span class='white'><b>Contains: \the [occupant]</b></span>"
