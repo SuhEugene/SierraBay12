@@ -10,15 +10,15 @@
 	reagent_state = SOLID
 	color = "#a8a8a8"
 
-/datum/reagent/experimental/affect_touch(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/experimental/affect_touch(mob/living/carbon/M, removed)
 	if(prob(33))
-		affect_blood(M, alien, removed)
+		affect_blood(M, removed)
 
-/datum/reagent/experimental/affect_ingest(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/experimental/affect_ingest(mob/living/carbon/M, removed)
 	if(prob(67))
-		affect_blood(M, alien, removed)
+		affect_blood(M, removed)
 
-/datum/reagent/experimental/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/experimental/affect_blood(mob/living/carbon/M, removed)
 
 	if(M.isSynthetic())
 		return
@@ -50,7 +50,7 @@
 	..()
 	name = "ER-[rand(9999)]"
 
-/datum/reagent/rsh2/affect_blood(var/mob/living/carbon/M, var/removed)
+/datum/reagent/rsh2/affect_blood(mob/living/carbon/M, removed)
 	M.gib()
 
 /datum/reagent/rsh3
@@ -65,7 +65,7 @@
 	..()
 	name = "ER-[rand(9999)]"
 
-/datum/reagent/rsh3/affect_blood(var/mob/living/carbon/human/M, var/removed)
+/datum/reagent/rsh3/affect_blood(mob/living/carbon/human/M, removed)
 	for(var/obj/item/organ/external/E in M.bad_external_organs)
 		if(E.status & ORGAN_BROKEN && E.damage < E.min_broken_damage)
 			E.mend_fracture()
@@ -85,7 +85,7 @@
 	..()
 	name = "ER-[rand(9999)]"
 
-/datum/reagent/rsh4/affect_blood(var/mob/living/carbon/human/M, var/removed)
+/datum/reagent/rsh4/affect_blood(mob/living/carbon/human/M, removed)
 	if(M.gender != MALE)
 		to_chat(M, "<span class='notice'>Я чувствую себя... Странно. Мягкое, приятное тепло распространяется по всему моему телу, особенно по груди, почему-то заставляя её становиться... Легче? Меня немного пугает ощущение того, как тепло распространяется по моему паху...</span>")
 		M.gender = MALE
