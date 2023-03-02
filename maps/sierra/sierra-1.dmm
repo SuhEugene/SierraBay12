@@ -17076,6 +17076,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/vehicle/train/cargo/trolley,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "BE" = (
@@ -17167,6 +17168,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/tableflag,
+/obj/vehicle/train/cargo/trolley,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "BN" = (
@@ -18101,6 +18103,7 @@
 	pixel_y = 27;
 	req_access = list("ACCESS_CARGO")
 	},
+/obj/vehicle/train/cargo/engine,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "Dt" = (

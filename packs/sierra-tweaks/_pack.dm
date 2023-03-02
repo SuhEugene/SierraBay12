@@ -11,4 +11,7 @@
 #include "objects\structures\extinguisher_cabinet.dm"
 #include "objects\structures\wall_frame.dm"
 #include "objects\structures\wallframe_spawner.dm"
+#include "objects\vehicles\cargo_train.dm"
+#include "objects\vehicles\train.dm"
+#include "objects\vehicles\vehicle.dm"
 #endif
