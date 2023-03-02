@@ -20230,6 +20230,9 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
+/obj/structure/sign/poster/nyc_unusual_gas{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/rnd/development)
 "aIq" = (

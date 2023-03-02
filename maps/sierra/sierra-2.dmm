@@ -16345,6 +16345,9 @@
 	dir = 4;
 	pixel_x = -20
 	},
+/obj/structure/sign/poster/hum_21{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "aDy" = (
@@ -20893,6 +20896,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/sign/poster/hum_11{
+	pixel_y = 32
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/sauna)
 "aMA" = (
