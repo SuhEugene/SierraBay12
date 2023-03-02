@@ -14050,6 +14050,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/cart{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/materials_storage)
 "azw" = (
@@ -16997,6 +17000,9 @@
 "aEL" = (
 /obj/effect/floor_decal/techfloor/corner,
 /obj/random/trash,
+/obj/structure/cart{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/aftport)
 "aEM" = (
@@ -29127,6 +29133,9 @@
 "bco" = (
 /obj/machinery/alarm{
 	pixel_y = 24
+	},
+/obj/structure/cart{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/aftstarboard)
