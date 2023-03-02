@@ -160,14 +160,16 @@
 	pulse2.anchored = TRUE
 	pulse2.set_dir(pick(GLOB.cardinal))
 
-	spawn(10)
-		qdel(pulse2)
 	if(on)
 		turn_off()
-	spawn(severity*300)
-		stat &= ~MACHINE_STAT_EMPED
-		if(was_on)
-			turn_on()
+
+	sleep(1 SECOND)
+	qdel(pulse2)
+
+	sleep(severity * 30 SECONDS)
+	stat &= ~MACHINE_STAT_EMPED
+	if(was_on)
+		turn_on()
 
 /obj/vehicle/attack_ai(mob/user as mob)
 	return
