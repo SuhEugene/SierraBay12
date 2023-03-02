@@ -1471,6 +1471,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 10
 	},
+/obj/machinery/anomaly_container,
 /turf/simulated/floor/tiled/techfloor,
 /area/quartermaster/expedition/storage)
 "cZ" = (
@@ -1667,6 +1668,7 @@
 	},
 /obj/effect/floor_decal/corner/purple/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/anomaly_container,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/test_room)
 "dr" = (
@@ -23665,6 +23667,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/anomaly_container,
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/storage)
 "MG" = (
@@ -25043,6 +25046,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/machinery/anomaly_container,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/expedition/storage)
 "Pe" = (
