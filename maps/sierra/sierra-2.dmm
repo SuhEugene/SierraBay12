@@ -30088,6 +30088,11 @@
 	},
 /obj/structure/catwalk,
 /obj/item/bedsheet/brown,
+/obj/item/beartrap{
+	anchored = 1;
+	deployed = 1;
+	icon_state = "beartrap1"
+	},
 /turf/simulated/floor/plating,
 /area/vacant/gambling)
 "beo" = (
