@@ -7,7 +7,7 @@
 	heating_power = 120 KILOWATTS
 	atom_flags = ATOM_FLAG_NO_TEMP_CHANGE
 
-/obj/machinery/space_heater/stationary/on_update_icon(var/rebuild_overlay = 0)
+/obj/machinery/space_heater/stationary/on_update_icon(rebuild_overlay = 0)
 	if(!on)
 		icon_state = "stheater-off"
 		set_light(0)
