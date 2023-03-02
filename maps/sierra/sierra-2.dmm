@@ -20882,6 +20882,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/space_heater/stationary/on{
+	pixel_y = 30
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/sauna)
 "aMz" = (
