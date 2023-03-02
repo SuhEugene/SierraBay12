@@ -637,6 +637,7 @@
 	pixel_y = 26
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/vending/generic,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
 "abh" = (
@@ -5923,6 +5924,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/vending/parts,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
 "alp" = (

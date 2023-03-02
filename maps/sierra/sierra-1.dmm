@@ -739,7 +739,7 @@
 /obj/effect/floor_decal/corner/beige/border{
 	dir = 1
 	},
-/obj/machinery/vending/generic,
+/obj/machinery/vending/parts/public,
 /turf/simulated/floor/tiled,
 /area/storage/primary)
 "bK" = (
@@ -12905,6 +12905,9 @@
 "uI" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/beige/border,
+/obj/machinery/vending/generic{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/storage/primary)
 "uJ" = (

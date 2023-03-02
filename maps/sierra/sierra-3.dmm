@@ -20533,6 +20533,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/vending/generic,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aII" = (
@@ -30187,6 +30188,9 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
+/obj/machinery/vending/parts/research{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/rnd/storage)
 "aXk" = (
@@ -36332,6 +36336,15 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/infirmreception)
+"dNv" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/vending/generic{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/rnd/storage)
 "dPt" = (
 /obj/structure/bed/chair/comfy/brown,
 /turf/simulated/floor/tiled/dark,
@@ -62226,7 +62239,7 @@ aRs
 aTg
 aPN
 aVN
-aXj
+dNv
 aXj
 aYT
 aYT
