@@ -11926,6 +11926,9 @@
 	},
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/device/flashlight/lamp/green,
+/obj/structure/curtain/open/bed{
+	pixel_y = -32
+	},
 /turf/simulated/floor/carpet/green,
 /area/crew_quarters/sleep/bunk_big)
 "avR" = (
@@ -22605,6 +22608,7 @@
 "aPM" = (
 /obj/structure/girder,
 /obj/structure/window/reinforced,
+/obj/structure/curtain/bed,
 /turf/simulated/floor/plating,
 /area/crew_quarters/safe_room/seconddeck)
 "aPN" = (
@@ -34575,6 +34579,9 @@
 	},
 /obj/structure/bed/chair/wood/walnut{
 	dir = 1
+	},
+/obj/structure/curtain/open/bed{
+	pixel_y = -32
 	},
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/sleep/bunk_big/room_two)

@@ -75,6 +75,7 @@
 // Structures
 #include "structures\barrier.dm"
 #include "structures\chairs.dm"
+#include "structures\curtains.dm"
 #include "structures\holoplants.dm"
 #include "structures\ladder_mobile.dm"
 #include "structures\signs.dm"
