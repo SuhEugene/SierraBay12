@@ -5116,6 +5116,7 @@
 /obj/effect/floor_decal/borderfloorblack/corner2{
 	dir = 10
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/petrov/security)
 "iQ" = (
@@ -5416,6 +5417,7 @@
 /obj/effect/floor_decal/borderfloor/corner2{
 	dir = 1
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckofficer)
 "jp" = (
@@ -6234,6 +6236,7 @@
 	},
 /obj/effect/floor_decal/borderfloor/corner2,
 /obj/effect/floor_decal/corner/beige/bordercorner2,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
 "kz" = (
@@ -6370,6 +6373,7 @@
 /obj/effect/floor_decal/corner/yellow/bordercorner2{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "kI" = (
@@ -7074,6 +7078,7 @@
 /obj/effect/floor_decal/corner/lightgrey/bordercorner2{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
 "lD" = (
@@ -19652,6 +19657,7 @@
 /obj/effect/floor_decal/corner/yellow/bordercorner2{
 	dir = 10
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/central_stairwell)
 "Ge" = (
@@ -23202,6 +23208,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/quartermaster/suplocker_room)
 "LQ" = (
@@ -25763,6 +25770,7 @@
 /obj/effect/floor_decal/corner/yellow/border{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/office)
 "Qh" = (

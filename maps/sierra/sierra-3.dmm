@@ -6893,6 +6893,7 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/medical/office)
 "amm" = (
@@ -8944,6 +8945,7 @@
 /obj/effect/floor_decal/corner/beige/bordercorner2{
 	dir = 5
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/hallway/infirmary)
 "api" = (
@@ -9025,6 +9027,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
 "apn" = (
@@ -9205,6 +9208,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hall/level_two)
 "apE" = (
@@ -9432,6 +9436,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/techmaint,
 /area/security/sierra/evidence)
 "apX" = (
@@ -10443,6 +10448,7 @@
 	dir = 4;
 	pixel_x = -20
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
 "arP" = (
@@ -10542,6 +10548,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/hallway/infirmary)
 "arX" = (
@@ -12683,6 +12690,7 @@
 /obj/effect/floor_decal/corner/red/border{
 	dir = 10
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/security/sierra/forensic)
 "awU" = (
@@ -13497,6 +13505,7 @@
 /obj/effect/floor_decal/corner/black/border,
 /obj/effect/floor_decal/borderfloorblack/corner2,
 /obj/effect/floor_decal/corner/black/bordercorner2,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/iaa)
 "ayx" = (
@@ -13567,6 +13576,7 @@
 /obj/effect/floor_decal/corner/black/bordercorner2{
 	dir = 9
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/iaa)
 "ayB" = (
@@ -17441,6 +17451,7 @@
 /obj/effect/floor_decal/corner/lime/bordercorner2{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/dungeon_master_lounge)
 "aDX" = (
@@ -17486,6 +17497,7 @@
 /obj/effect/floor_decal/corner/lime/bordercorner2{
 	dir = 6
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "aEc" = (
@@ -20395,6 +20407,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/rnd/entry)
 "aIz" = (
@@ -20601,6 +20614,7 @@
 /obj/effect/floor_decal/corner/purple/bordercorner2{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aIL" = (
@@ -21146,6 +21160,7 @@
 /obj/effect/floor_decal/corner/red/bordercorner2{
 	dir = 10
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "aJy" = (
@@ -22196,6 +22211,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "aKW" = (
@@ -22214,6 +22230,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/steel_grid,
 /area/crew_quarters/heads/office/hop)
 "aKX" = (
@@ -24961,6 +24978,7 @@
 	},
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/borderfloorblack/corner2,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/security/sierra/breakroom)
 "aOZ" = (
@@ -25333,6 +25351,7 @@
 /turf/simulated/wall/prepainted,
 /area/tcommsat/computer)
 "aPA" = (
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/tcommsat/computer)
 "aPB" = (
@@ -25556,6 +25575,7 @@
 /obj/structure/sign/xenoflora{
 	pixel_y = -32
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "aPR" = (
@@ -28467,6 +28487,7 @@
 /obj/effect/floor_decal/corner/red/bordercorner2{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/steel_grid,
 /area/security/brig)
 "aTJ" = (
@@ -29198,6 +29219,7 @@
 /obj/effect/floor_decal/corner/green/bordercorner2{
 	dir = 9
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/security/prison)
 "aVp" = (
@@ -31150,6 +31172,7 @@
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "aZR" = (
@@ -40373,6 +40396,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
 "pHI" = (
@@ -42176,6 +42200,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
 "vZt" = (
@@ -42374,6 +42399,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore_stairwell)
 "wTw" = (

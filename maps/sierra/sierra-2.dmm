@@ -8333,6 +8333,7 @@
 /obj/effect/floor_decal/corner/yellow/border{
 	dir = 1
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/hallway)
 "apB" = (
@@ -9882,6 +9883,7 @@
 /obj/machinery/light/spot{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/gym)
 "asx" = (
@@ -10864,6 +10866,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/engineering_monitoring)
 "aug" = (
@@ -14365,6 +14368,7 @@
 	pixel_x = 24;
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/chapel/main)
 "azU" = (
@@ -14632,6 +14636,7 @@
 /obj/effect/floor_decal/corner/yellow/border,
 /obj/effect/floor_decal/borderfloor/corner2,
 /obj/effect/floor_decal/corner/yellow/bordercorner2,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/ce)
 "aAv" = (
@@ -14820,6 +14825,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
 "aAH" = (
@@ -18808,6 +18814,7 @@
 	},
 /obj/effect/floor_decal/borderfloorblack/corner,
 /obj/effect/floor_decal/corner/darkblue/bordercorner,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/captain)
 "aIr" = (
@@ -20627,6 +20634,7 @@
 /obj/effect/floor_decal/corner/green/bordercorner2{
 	dir = 9
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/fore)
 "aLV" = (
@@ -20642,6 +20650,7 @@
 	},
 /obj/effect/floor_decal/borderfloor/corner2,
 /obj/effect/floor_decal/corner/lime/bordercorner2,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/fore)
 "aLW" = (
@@ -22068,6 +22077,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/sauna)
 "aOD" = (
@@ -23448,6 +23458,7 @@
 	c_tag = "Cryogenic Storage - South Part";
 	dir = 1
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo/south)
 "aRy" = (
@@ -27813,6 +27824,7 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/fore)
 "aZH" = (
@@ -28108,6 +28120,7 @@
 	req_access = list("ACCESS_MEDICAL");
 	dir = 1
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/medical/maintenance_equipstorage)
 "bag" = (
@@ -30362,6 +30375,7 @@
 /obj/effect/floor_decal/spline/plain/brown{
 	dir = 8
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/actor)
 "beT" = (
@@ -31565,6 +31579,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/bluespace)
 "bhk" = (
@@ -32067,6 +32082,7 @@
 	pixel_x = -24
 	},
 /obj/structure/cable/green,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/dark,
 /area/chapel/office)
 "bip" = (
@@ -33865,6 +33881,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/cafe)
+"eZe" = (
+/obj/structure/holoplant,
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/bunk)
 "eZw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -35086,6 +35106,7 @@
 "iES" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/light/small,
+/obj/structure/holoplant,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/cafe)
 "iFO" = (
@@ -35127,6 +35148,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/center)
+"iGr" = (
+/obj/structure/holoplant,
+/turf/simulated/floor/tiled/dark,
+/area/chapel/main)
 "iHV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -39896,6 +39921,7 @@
 	pixel_x = -23;
 	pixel_y = 6
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/cafe)
 "vQr" = (
@@ -55344,7 +55370,7 @@ awP
 aGd
 awP
 awP
-aIS
+eZe
 aOg
 aPx
 aQn
@@ -58981,7 +59007,7 @@ aBj
 aFY
 aGW
 aew
-aJF
+iGr
 aQa
 xpj
 aKd
