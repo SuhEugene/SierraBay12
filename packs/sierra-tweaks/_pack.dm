@@ -9,6 +9,7 @@
 #include "objects\items\fruit_jar.dm"
 #include "objects\structures\cargo.dm"
 #include "objects\structures\extinguisher_cabinet.dm"
+#include "objects\structures\shotgun_rack.dm"
 #include "objects\structures\wall_frame.dm"
 #include "objects\structures\wallframe_spawner.dm"
 #include "objects\vehicles\cargo_train.dm"
