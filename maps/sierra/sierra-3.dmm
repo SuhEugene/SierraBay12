@@ -40309,6 +40309,7 @@
 	pixel_y = -6;
 	req_access = list("ACCESS_MEDICAL")
 	},
+/mob/living/simple_animal/passive/cat/fluff/Runtime,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "pnQ" = (
