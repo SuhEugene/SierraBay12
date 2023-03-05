@@ -13760,6 +13760,7 @@
 	pixel_x = 26;
 	pixel_y = 2
 	},
+/obj/structure/flora/pottedplant/stoutbush,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/captain/office_anteroom)
 "azc" = (
@@ -30134,6 +30135,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/structure/flora/pottedplant/stoutbush,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge)
 "bep" = (
@@ -35861,6 +35863,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/sleep/cryo)
+"lhy" = (
+/obj/structure/flora/pottedplant/fern,
+/turf/simulated/floor/carpet/purple,
+/area/crew_quarters/heads/captain/beach)
 "lim" = (
 /obj/machinery/air_sensor{
 	id_tag = "BSDrive"
@@ -50501,7 +50507,7 @@ aqI
 apO
 apO
 apO
-apO
+lhy
 auP
 ahT
 asv

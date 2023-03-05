@@ -28883,6 +28883,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 6
 	},
+/obj/structure/flora/pottedplant/smallcactus,
 /turf/simulated/floor/tiled/dark,
 /area/tcommsat/computer)
 "aUy" = (
@@ -31894,6 +31895,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/structure/flora/pottedplant/flower,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge/upper)
 "bbB" = (
@@ -40345,6 +40347,7 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 6
 	},
+/obj/structure/flora/pottedplant/thinbush,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "pAN" = (
