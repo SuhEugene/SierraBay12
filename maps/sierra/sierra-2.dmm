@@ -7847,6 +7847,7 @@
 	pixel_x = -3;
 	id = "cap_windows"
 	},
+/obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/captain/office_anteroom)
 "aoN" = (

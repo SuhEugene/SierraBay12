@@ -39422,6 +39422,9 @@
 	pixel_y = -20;
 	range = 11
 	},
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "mXP" = (
