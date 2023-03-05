@@ -77,6 +77,7 @@
 #include "structures\chairs.dm"
 #include "structures\curtains.dm"
 #include "structures\holoplants.dm"
+#include "structures\l3closets.dm"
 #include "structures\ladder_mobile.dm"
 #include "structures\signs.dm"
 #include "structures\table_presets.dm"

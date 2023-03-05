@@ -4938,6 +4938,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/l3closet/xeno_anom,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/airlock)
 "iE" = (
@@ -4984,6 +4985,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/l3closet/xeno_anom,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/airlock)
 "iH" = (
@@ -8321,6 +8323,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/airlock)
 "nn" = (
