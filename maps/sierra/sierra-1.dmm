@@ -3323,6 +3323,9 @@
 /obj/structure/sign/poster{
 	pixel_x = -32
 	},
+/obj/structure/bed/chair/office/brown{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/suplocker_room)
 "ga" = (
@@ -22599,6 +22602,9 @@
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 29
+	},
+/obj/structure/bed/chair/office/brown{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/suplocker_room)

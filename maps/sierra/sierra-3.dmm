@@ -20534,6 +20534,9 @@
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 4
 	},
+/obj/structure/bed/chair/office/purple{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aIH" = (
@@ -21481,6 +21484,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/techfloor/orange/corner,
+/obj/structure/bed/chair/office/purple,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/rnd/development)
 "aJY" = (
@@ -22616,6 +22620,9 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/techfloor,
+/obj/structure/bed/chair/office/purple{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/rnd/development)
 "aLx" = (
@@ -22804,6 +22811,7 @@
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 8
 	},
+/obj/structure/bed/chair/office/purple,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aLK" = (
@@ -33435,10 +33443,16 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/structure/bed/chair/office/brown{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/centralport)
 "beJ" = (
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/bed/chair/office/brown{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/centralport)
 "beK" = (
@@ -36584,6 +36598,7 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/bed/chair/office/purple,
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
 "ewn" = (
@@ -38159,6 +38174,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
+"iXJ" = (
+/obj/structure/bed/chair/office/brown{
+	dir = 1
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/lounge/upper)
 "jft" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -39793,6 +39814,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/bed/chair/office/purple{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/xenoflora)
 "nUg" = (
@@ -40135,6 +40159,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai_upload)
+"oTH" = (
+/obj/structure/bed/chair/office/purple,
+/turf/simulated/floor/tiled/white,
+/area/rnd/misc_lab)
 "oWT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -42463,6 +42491,12 @@
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology/xenoflora)
+"xbE" = (
+/obj/structure/bed/chair/office/brown{
+	dir = 4
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/lounge/upper)
 "xeY" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -60100,7 +60134,7 @@ aXa
 aYk
 bap
 aVd
-bav
+iXJ
 bcO
 bdL
 aYW
@@ -61109,7 +61143,7 @@ aVI
 aXf
 aOk
 aZp
-bav
+xbE
 bbC
 bcQ
 bav
@@ -65150,7 +65184,7 @@ nht
 pft
 qVT
 vaj
-bdb
+oTH
 sox
 aUK
 beU
