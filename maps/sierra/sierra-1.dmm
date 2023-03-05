@@ -4240,6 +4240,12 @@
 	},
 /turf/simulated/floor/reinforced/hydrogen/fuel,
 /area/thruster/d3starboard)
+"hy" = (
+/obj/structure/sign/nanotrasen{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/hull,
+/area/hallway/primary/thirddeck/fore)
 "hz" = (
 /obj/machinery/door/firedoor,
 /obj/random/obstruction,
@@ -7827,6 +7833,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
+"mG" = (
+/obj/effect/paint/nt_white,
+/obj/effect/paint_stripe/nt_red,
+/obj/structure/sign/nanotrasen{
+	dir = 8
+	},
+/turf/simulated/wall/r_titanium,
+/area/shuttle/escape_pod/escape_pod4/station)
 "mH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -16633,6 +16647,12 @@
 "AL" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/thirddeck/foreport)
+"AM" = (
+/obj/structure/sign/nanotrasen{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall/hull,
+/area/vacant/infirmary)
 "AN" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 6
@@ -17476,6 +17496,14 @@
 /obj/effect/paint_stripe/blue,
 /turf/simulated/wall/r_titanium,
 /area/exploration_shuttle/cockpit)
+"Cn" = (
+/obj/effect/paint/nt_white,
+/obj/effect/paint_stripe/nt_red,
+/obj/structure/sign/nanotrasen{
+	dir = 4
+	},
+/turf/simulated/wall/r_titanium,
+/area/shuttle/escape_pod/escape_pod1/station)
 "Co" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -21849,6 +21877,14 @@
 /obj/machinery/mining/drill,
 /turf/simulated/floor/tiled,
 /area/quartermaster/hangar)
+"Jt" = (
+/obj/effect/paint/nt_white,
+/obj/effect/paint_stripe/nt_red,
+/obj/structure/sign/nanotrasen{
+	dir = 8
+	},
+/turf/simulated/wall/r_titanium,
+/area/shuttle/petrov/airlock)
 "Jv" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -22636,6 +22672,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/expedition/eva)
+"KO" = (
+/obj/structure/sign/nanotrasen{
+	dir = 8
+	},
+/turf/simulated/wall/r_wall/hull,
+/area/storage/airlock_canisters)
 "KP" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -22704,6 +22746,14 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aft)
+"KV" = (
+/obj/effect/paint_stripe/yellow,
+/obj/effect/paint/dark_gunmetal,
+/obj/structure/sign/nanotrasen{
+	dir = 1
+	},
+/turf/simulated/wall/r_titanium,
+/area/guppy_hangar/start)
 "KW" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 8
@@ -27890,6 +27940,18 @@
 "TZ" = (
 /turf/simulated/wall/r_wall/hull,
 /area/storage/airlock_canisters)
+"Ua" = (
+/obj/effect/paint/nt_white,
+/obj/effect/paint_stripe/nt_red,
+/obj/structure/sign/nanotrasen{
+	dir = 4
+	},
+/turf/simulated/wall/r_titanium,
+/area/shuttle/escape_pod/escape_pod3/station)
+"Ub" = (
+/obj/structure/sign/nanotrasen,
+/turf/simulated/wall/r_wall/hull,
+/area/hallway/primary/thirddeck/fore)
 "Uc" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -28691,6 +28753,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/quartermaster/hangar)
+"VM" = (
+/obj/effect/paint/nt_white,
+/obj/effect/paint_stripe/nt_red,
+/obj/structure/sign/nanotrasen{
+	dir = 8
+	},
+/turf/simulated/wall/r_titanium,
+/area/shuttle/escape_pod/escape_pod2/station)
 "VO" = (
 /obj/structure/sign/warning/hot_exhaust{
 	dir = 1
@@ -29397,6 +29467,12 @@
 /obj/effect/floor_decal/corner/paleblue/bordercorner2,
 /turf/simulated/floor/tiled/white,
 /area/exploration_shuttle/medical)
+"Xb" = (
+/obj/structure/sign/nanotrasen{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/hull,
+/area/hallway/primary/thirddeck/center)
 "Xd" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -29911,6 +29987,10 @@
 /obj/structure/sign/warning/hot_exhaust,
 /turf/simulated/wall/r_wall/hull,
 /area/vacant/cargo)
+"Yc" = (
+/obj/structure/sign/nanotrasen,
+/turf/simulated/wall/r_wall/hull,
+/area/hallway/primary/thirddeck/center)
 "Yd" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -39808,7 +39888,7 @@ Is
 TZ
 TZ
 TZ
-TZ
+KO
 cK
 fJ
 cK
@@ -42622,7 +42702,7 @@ Is
 Is
 Is
 Is
-cK
+hy
 cK
 cK
 cn
@@ -42654,7 +42734,7 @@ BV
 Dj
 cK
 cK
-cK
+Ub
 Is
 Is
 Is
@@ -43430,7 +43510,7 @@ Is
 Is
 Is
 Is
-cK
+hy
 cK
 cK
 tL
@@ -43462,7 +43542,7 @@ fk
 lv
 cK
 cK
-cK
+Ub
 Is
 Is
 Is
@@ -45858,7 +45938,7 @@ cB
 cB
 cB
 bf
-cB
+Cn
 cB
 ZN
 ZN
@@ -45882,7 +45962,7 @@ XE
 sc
 sc
 JE
-JE
+Ua
 qy
 JE
 JE
@@ -46048,7 +46128,7 @@ Is
 Is
 Is
 Is
-aW
+Xb
 aW
 aW
 aW
@@ -46096,7 +46176,7 @@ aW
 aW
 aW
 aW
-aW
+Yc
 Is
 Is
 Is
@@ -46868,7 +46948,7 @@ aL
 aL
 aL
 bN
-aL
+VM
 aL
 Nr
 Nr
@@ -46892,7 +46972,7 @@ zY
 WM
 WM
 KK
-KK
+mG
 yP
 KK
 KK
@@ -53356,7 +53436,7 @@ zg
 Zj
 iH
 GH
-Ur
+KV
 Vl
 Vl
 Vl
@@ -57387,7 +57467,7 @@ ah
 zh
 ah
 ah
-KX
+AM
 KX
 KX
 KX
@@ -57585,7 +57665,7 @@ Is
 Is
 ij
 FE
-FE
+Jt
 DF
 FE
 FE

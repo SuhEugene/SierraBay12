@@ -34078,6 +34078,13 @@
 /obj/structure/bed/chair/comfy/red,
 /turf/simulated/floor/wood/bamboo,
 /area/crew_quarters/cafe)
+"fKS" = (
+/obj/structure/lattice,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/space,
+/area/space)
 "fOz" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/synthesized_instrument/synthesizer/piano,
@@ -53930,7 +53937,7 @@ aEc
 aVp
 aYx
 aEc
-aah
+fKS
 aam
 aam
 aam
