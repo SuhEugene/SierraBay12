@@ -53,3 +53,23 @@
 
 /obj/structure/bed/chair/office/light/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, MATERIAL_CLOTH)
+
+
+
+/obj/structure/bed/chair/shuttle/hard/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, MATERIAL_STEEL, padding_material)
+
+/obj/structure/bed/chair/shuttle/blue/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, MATERIAL_STEEL, MATERIAL_BLUE_CLOTH)
+
+/obj/structure/bed/chair/shuttle/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, MATERIAL_STEEL ,MATERIAL_BLACK_CLOTH)
+
+/obj/structure/bed/chair/shuttle/white/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH)
+
+/obj/structure/bed/chair/shuttle/red/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, MATERIAL_STEEL, MATERIAL_RED_CLOTH)
+
+/obj/structure/bed/chair/shuttle/green/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, MATERIAL_STEEL, MATERIAL_GREEN_CLOTH)

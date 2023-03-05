@@ -20277,7 +20277,7 @@
 /obj/effect/floor_decal/corner/b_green/bordercorner2{
 	dir = 6
 	},
-/obj/structure/bed/chair/shuttle{
+/obj/structure/bed/chair/shuttle/green{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -20614,7 +20614,7 @@
 /obj/effect/floor_decal/corner/b_green/border{
 	dir = 1
 	},
-/obj/structure/bed/chair/shuttle,
+/obj/structure/bed/chair/shuttle/green,
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/seats_place)
 "Hy" = (
@@ -20912,7 +20912,7 @@
 /obj/machinery/light,
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/b_green/border,
-/obj/structure/bed/chair/shuttle{
+/obj/structure/bed/chair/shuttle/green{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -21171,6 +21171,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/bordercorner2{
 	dir = 4
+	},
+/obj/structure/bed/chair/shuttle/green{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
@@ -21594,6 +21597,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/bordercorner2{
 	dir = 5
+	},
+/obj/structure/bed/chair/shuttle/green{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
@@ -22169,6 +22175,9 @@
 /obj/effect/floor_decal/corner/b_green/border{
 	dir = 4
 	},
+/obj/structure/bed/chair/shuttle/green{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
 "JT" = (
@@ -22191,7 +22200,7 @@
 	dir = 1;
 	pixel_y = -20
 	},
-/obj/structure/bed/chair/shuttle{
+/obj/structure/bed/chair/shuttle/green{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -22486,6 +22495,9 @@
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -20
+	},
+/obj/structure/bed/chair/shuttle/green{
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/cargo_r)
@@ -28233,6 +28245,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/bed/chair/shuttle/green,
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/cargo_r)
 "UE" = (
