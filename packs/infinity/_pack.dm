@@ -60,6 +60,7 @@
 #include "machinery\computer.dm"
 #include "machinery\heater.dm"
 #include "machinery\machines.dm"
+#include "machinery\rack.dm"
 #include "machinery\lighting.dm"
 #include "machinery\suit_storage.dm"
 #include "machinery\survival_pod.dm"

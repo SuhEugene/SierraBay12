@@ -22209,6 +22209,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
 "aOS" = (
+/obj/structure/table/rack/wooden,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/chapel/main)
 "aOT" = (
