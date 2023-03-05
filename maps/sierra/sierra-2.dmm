@@ -1835,7 +1835,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/structure/bed/chair/comfy/yellow{
+/obj/structure/bed/chair/rounded/yellow{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
