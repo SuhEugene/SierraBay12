@@ -1,4 +1,4 @@
-GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,COLOR_LIGHTING_BLUE_BRIGHT,COLOR_LIGHTING_GREEN_BRIGHT,COLOR_LIGHTING_ORANGE_BRIGHT,COLOR_LIGHTING_PURPLE_BRIGHT,COLOR_LIGHTING_CYAN_BRIGHT))
+GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_PALE_RED_GRAY,COLOR_BLUE_GRAY,COLOR_PALE_GREEN_GRAY,COLOR_PALE_YELLOW,COLOR_PALE_PINK,COLOR_BABY_BLUE))
 /obj/structure/holoplant
 	name = "holograph"
 	desc = "An strange flower pot. It have something like holograph projector."
@@ -20,7 +20,6 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 	var/tmp/list/possible_states
 	var/tmp/list/emagged_states
 
-
 /obj/structure/holoplant/Initialize()
 	. = ..()
 	update_icon()
@@ -29,7 +28,7 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 	possible_states = list()
 	emagged_states = list()
 	var/list/states = icon_states(icon)
-	for(i in states)
+	for(var/i in states)
 		var/list/state_splittext = splittext(i, "-")
 		if(length(state_splittext) > 1)
 			if(istext(state_splittext[1]))
@@ -53,7 +52,7 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 
 	if(enabled)
 		overlays += plant
-	SET_L_RPC(brightness_on, 1, plant_color)
+	set_light(brightness_on, l_outer_range = 1, l_color = plant_color)
 
 /obj/structure/holoplant/proc/change_plant(state)
 	plant = prepare_icon(state)
@@ -63,14 +62,13 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 		state = pick((emagged ? emagged_states : possible_states))
 
 	var/plant_icon = icon(icon, state)
-	return getHologramIcon(plant_icon, TRUE, null, nopacity = hologram_opacity)
+	return getHologramIcon(plant_icon, TRUE, null)
 
 /obj/structure/holoplant/proc/change_color(ncolor)
 	if (!plant)
 		return
 	if(!ncolor)
 		ncolor = pick(GLOB.recomended_holoplants_colors)
-//	ncolor = clamphex(ncolor, (islist(colors_clamp) && length(colors_clamp)) ? (colors_clamp[1], colors_clamp[2]) : (colors_clamp, 255))
 	if(islist(colors_clamp) && length(colors_clamp))
 		ncolor = clamphex(ncolor, colors_clamp[1], colors_clamp[2])
 	else
@@ -117,20 +115,20 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 	if (QDELETED(src))
 		return
 	interference = TRUE
-	overlays.Cut()
-	SET_L_RPC(0, 0, plant_color)
+	cut_overlays()
+	set_light(0, l_outer_range = 0, l_color = plant_color)
 	sleep(3)
 	if(QDELETED(src))
 		return
 
 	overlays += plant
-	SET_L_RPC(brightness_on, 1, plant_color)
+	set_light(brightness_on, l_outer_range = 1, l_color = plant_color)
 	sleep(3)
 	if(QDELETED(src))
 		return
 
 	overlays -= plant
-	SET_L_RPC(0, 0, plant_color)
+	set_light(0, l_outer_range = 0, l_color = plant_color)
 	sleep(3)
 	if(QDELETED(src))
 		return
@@ -141,7 +139,7 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_LIGHTING_RED_BRIGHT,CO
 
 /obj/structure/holoplant/proc/doInterference()
 	if(!interference && enabled)
-		addtimer(CALLBACK(src, .proc/Interference), 0, TIMER_STOPPABLE)
+		addtimer(new Callback(src, .proc/Interference), 0, TIMER_UNIQUE)
 
 /obj/structure/holoplant/Crossed(mob/living/L)
 	if(istype(L))

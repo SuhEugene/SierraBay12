@@ -9,6 +9,9 @@
 #include "_datums\loadout\gears.dm"
 #include "_datums\reagents\experimental.dm"
 
+// HELPERS
+#include "_helpers\colors.dm"
+
 // Clothing
 #include "clothing\head\berets.dm"
 #include "clothing\head\head.dm"
