@@ -25191,6 +25191,7 @@
 	req_access = newlist()
 	},
 /obj/effect/floor_decal/industrial/hatch/grey,
+/obj/structure/table/wallf/steel,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aPj" = (
