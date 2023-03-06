@@ -110,7 +110,7 @@
 		latch(C, user)
 	else
 		if(!load(C))
-			to_chat(user, "<span class='warning'>You were unable to load [C] on [src].</span>")
+			to_chat(user, SPAN_WARNING("You were unable to load [C] on [src]."))
 
 /obj/vehicle/train/attack_hand(mob/user as mob)
 	if(user.stat || user.restrained() || !Adjacent(user))
@@ -155,14 +155,14 @@
 		return
 
 	if (T.tow)
-		to_chat(user, "<span class='warning'>\The [T] is already towing something.</span>")
+		to_chat(user, SPAN_WARNING("\The [T] is already towing something."))
 		return
 
 	//check for cycles.
 	var/obj/vehicle/train/next_car = T
 	while (next_car)
 		if (next_car == src)
-			to_chat(user, "<span class='warning'>That seems very silly.</span>")
+			to_chat(user, SPAN_WARNING("That seems very silly."))
 			return
 		next_car = next_car.lead
 
@@ -172,7 +172,7 @@
 	set_dir(lead.dir)
 
 	if(user)
-		to_chat(user, "<span class='notice'>You hitch \the [src] to \the [T].</span>")
+		to_chat(user, SPAN_NOTICE("You hitch \the [src] to \the [T]."))
 
 	update_stats()
 
@@ -180,13 +180,13 @@
 //detaches the train from whatever is towing it
 /obj/vehicle/train/proc/unattach(mob/user)
 	if (!lead)
-		to_chat(user, "<span class='warning'>\The [src] is not hitched to anything.</span>")
+		to_chat(user, SPAN_WARNING("\The [src] is not hitched to anything."))
 		return
 
 	lead.tow = null
 	lead.update_stats()
 
-	to_chat(user, "<span class='notice'>You unhitch \the [src] from \the [lead].</span>")
+	to_chat(user, SPAN_NOTICE("You unhitch \the [src] from \the [lead]."))
 	lead = null
 
 	update_stats()

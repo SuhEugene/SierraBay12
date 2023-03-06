@@ -18,10 +18,12 @@
 	if(istype(A, /turf/simulated/open))         //Place into open space
 		var/turf/below_loc = GetBelow(A)
 		if(!below_loc || (istype(/turf/space, below_loc)))
-			to_chat(user, "<span class='notice'>Why would you do that?! There is only infinite space there...</span>")
+			to_chat(user, SPAN_NOTICE("Why would you do that?! There is only infinite space there..."))
 			return
-		user.visible_message("<span class='warning'>[user] begins to lower \the [src] into \the [A].</span>",
-			"<span class='warning'>You begin to lower \the [src] into \the [A].</span>")
+		user.visible_message(
+			SPAN_WARNING("[user] begins to lower \the [src] into \the [A]."),
+			SPAN_WARNING("You begin to lower \the [src] into \the [A].")
+		)
 		if(!handle_action(A, user))
 			return
 		// Create the lower ladder first. ladder/Initialize() will make the upper
@@ -37,10 +39,12 @@
 	else if (istype(A, /turf/simulated/floor))        //Place onto Floor
 		var/turf/upper_loc = GetAbove(A)
 		if(!upper_loc || !istype(upper_loc,/turf/simulated/open))
-			to_chat(user, "<span class='notice'>There is something above. You can't deploy!</span>")
+			to_chat(user, SPAN_NOTICE("There is something above. You can't deploy!"))
 			return
-		user.visible_message("<span class='warning'>[user] begins deploying \the [src] on \the [A].</span>",
-			"<span class='warning'>You begin to deploy \the [src] on \the [A].</span>")
+		user.visible_message(
+			SPAN_WARNING("[user] begins deploying \the [src] on \the [A]."),
+			SPAN_WARNING("You begin to deploy \the [src] on \the [A].")
+		)
 		if(!handle_action(A, user))
 			return
 		// Ditto here. Create the lower ladder first.
@@ -83,15 +87,18 @@
 	set src in oview(1)
 
 	if(usr.incapacitated() || !usr.IsAdvancedToolUser() || !ishuman(usr))
-		to_chat(usr, "<span class='warning'>You can't do that right now!</span>")
+		to_chat(usr, SPAN_WARNING("You can't do that right now!"))
 		return
 
 	var/mob/living/carbon/human/H = usr
-	H.visible_message("<span class='notice'>[H] starts folding up [src].</span>",
-		"<span class='notice'>You start folding up [src].</span>")
+
+	H.visible_message(
+		SPAN_NOTICE("[H] starts folding up [src]."),
+		SPAN_NOTICE("You start folding up [src].")
+	)
 
 	if(!do_after(H, 30, src))
-		to_chat(H, "<span class='warning'>You are interrupted!</span>")
+		to_chat(H, SPAN_WARNING("You are interrupted!"))
 		return
 
 	if(QDELETED(src))
@@ -100,8 +107,10 @@
 	var/obj/item/ladder_mobile/R = new(get_turf(H))
 	transfer_fingerprints_to(R)
 
-	H.visible_message("<span class='notice'>[H] folds [src] up into [R]!</span>",
-		"<span class='notice'>You fold [src] up into [R]!</span>")
+	H.visible_message(
+		SPAN_NOTICE("[H] folds [src] up into [R]!"),
+		SPAN_NOTICE("You fold [src] up into [R]!")
+	)
 
 	if(target_down)
 		QDEL_NULL(target_down)
