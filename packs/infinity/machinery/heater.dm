@@ -22,9 +22,9 @@
 		set_light(0)
 
 	if(rebuild_overlay)
-		overlays.Cut()
+		cut_overlays()
 		if(panel_open)
-			overlays  += "stheater-open"
+			add_overlay("stheater-open")
 
 /obj/machinery/space_heater/stationary/on
 	on = 1
