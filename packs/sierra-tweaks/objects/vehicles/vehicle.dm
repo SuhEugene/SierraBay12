@@ -259,13 +259,13 @@
 		return
 	cell = C
 	powercheck()
-	to_chat(usr, SPAN_NOICE("You install [C] in [src]."))
+	to_chat(usr, SPAN_NOTICE("You install [C] in [src]."))
 
 /obj/vehicle/proc/remove_cell(mob/living/carbon/human/H)
 	if(!cell)
 		return
 
-	to_chat(usr, SPAN_NOICE("You remove [cell] from [src]."))
+	to_chat(usr, SPAN_NOTICE("You remove [cell] from [src]."))
 	H.put_in_hands(cell)
 	cell = null
 	powercheck()
