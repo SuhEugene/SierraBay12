@@ -6029,6 +6029,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/sierra/evidence)
 "akU" = (
@@ -8824,6 +8825,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/sleeper)
 "apc" = (
@@ -9509,6 +9511,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/drone_fabrication)
 "aqe" = (
@@ -9856,6 +9859,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/sleeper)
 "aqJ" = (
@@ -10115,6 +10119,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/bridge/adjutants)
 "arh" = (
@@ -10295,6 +10300,7 @@
 	name = "Forensics";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techmaint,
 /area/security/sierra/evidence)
 "arw" = (
@@ -11326,6 +11332,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/crew_quarters/heads/office/cmo)
 "atH" = (
@@ -13318,6 +13325,7 @@
 	name = "Suits Storage";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/monotile,
 /area/security/sierra/forensic)
 "ayi" = (
@@ -13364,6 +13372,7 @@
 	name = "Processings";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/monotile,
 /area/security/sierra/interrogation)
 "ayl" = (
@@ -19412,6 +19421,7 @@
 /obj/structure/table/wallf{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aHb" = (
@@ -19912,6 +19922,7 @@
 	},
 /obj/structure/wall_frame/standard,
 /obj/structure/table/wallf/steel,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/sierra/sergeant)
 "aHO" = (
@@ -21000,6 +21011,7 @@
 	name = "Warden";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/sierra/sergeant)
 "aJr" = (
@@ -21958,6 +21970,7 @@
 	stripe_color = "#ffffff"
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/crew_quarters/heads/office/rd)
 "aKI" = (
@@ -22145,6 +22158,7 @@
 	id_tag = "security_lockdown";
 	name = "Security Department Lockdown"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/sierra/sergeant)
 "aKS" = (
@@ -22953,6 +22967,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/bridge/hall/level_two)
 "aMd" = (
@@ -24060,6 +24075,7 @@
 	id_tag = "ge_windows";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/sierra/breakroom)
 "aNH" = (
@@ -24122,6 +24138,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/sierra/breakroom)
 "aNL" = (
@@ -24183,6 +24200,7 @@
 	name = "Lont Term Checkpoint";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aNO" = (
@@ -25172,6 +25190,7 @@
 	name = "Checkpoint's Desk";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aPj" = (
@@ -26136,6 +26155,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/bridge)
 "aQB" = (
@@ -26197,6 +26217,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/sierra/hosbed)
 "aQF" = (
@@ -26284,6 +26305,7 @@
 	name = "Break Room";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/sierra/breakroom)
 "aQL" = (
@@ -26330,6 +26352,7 @@
 	name = "Lont Term Checkpoint";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aQP" = (
@@ -27156,6 +27179,7 @@
 	},
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/corner/red/border,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aRS" = (
@@ -27370,6 +27394,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/foreport)
 "aSj" = (
@@ -27793,6 +27818,7 @@
 /obj/effect/floor_decal/corner/red/border{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aSD" = (
@@ -28613,6 +28639,7 @@
 	},
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/corner/red/border,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/prison)
 "aTV" = (
@@ -30830,6 +30857,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/rnd/storage)
 "aYv" = (
@@ -32599,6 +32627,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bcV" = (
@@ -33027,6 +33056,7 @@
 	name = "Xenoflora Lab Maintenance";
 	req_access = newlist()
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/research)
 "bdX" = (
@@ -36873,6 +36903,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/range)
 "fwZ" = (
@@ -37040,6 +37071,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai)
 "fUC" = (
@@ -39034,6 +39066,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai)
 "lIG" = (
@@ -42328,6 +42361,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/heads/office/hop/cobed)
 "wDR" = (

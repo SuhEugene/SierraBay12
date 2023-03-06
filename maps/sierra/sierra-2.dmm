@@ -4938,6 +4938,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/bar)
 "ajw" = (
@@ -5495,6 +5496,7 @@
 	id_tag = "bar<-cafe";
 	name = "Bar Shutters"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/bar)
 "akB" = (
@@ -5683,6 +5685,7 @@
 	dir = 8
 	},
 /obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/bar)
 "akS" = (
@@ -6000,6 +6003,7 @@
 	id_tag = "bar<-cafe";
 	name = "Bar Shutters"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/bar)
 "alx" = (
@@ -11737,6 +11741,7 @@
 	name = "Bar Shutters"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/bar)
 "avu" = (
@@ -28639,6 +28644,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo/south)
 "bbl" = (
@@ -37876,6 +37882,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/galley)
 "qNA" = (

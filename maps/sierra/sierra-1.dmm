@@ -906,6 +906,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/airlock_canisters)
 "bV" = (
@@ -1247,6 +1248,19 @@
 /obj/effect/paint_stripe/blue,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/cargo_l)
+"cy" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch/maintenance,
+/obj/effect/floor_decal/industrial/hatch/grey,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/hallway/primary/thirddeck/center)
 "cz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -3352,6 +3366,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/thirddeck/foreport)
 "gb" = (
@@ -6597,6 +6612,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/security)
 "kY" = (
@@ -16035,6 +16051,7 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/hatch/maintenance,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/thirddeck/forestarboard)
 "zI" = (
@@ -23079,6 +23096,19 @@
 /obj/machinery/navbeacon/sierra/TD_fore3_port,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
+"LA" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor,
+/obj/machinery/door/airlock/hatch/maintenance,
+/obj/effect/floor_decal/industrial/hatch/grey,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/hallway/primary/thirddeck/center)
 "LB" = (
 /obj/structure/lattice,
 /turf/space,
@@ -27325,6 +27355,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/sierra/dockcheck)
 "SS" = (
@@ -29626,6 +29657,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/security/sierra/dockcheck)
 "Xq" = (
@@ -29783,6 +29815,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/sierra/dockcheck)
 "XH" = (
@@ -46201,7 +46234,7 @@ aW
 aW
 aW
 aW
-fN
+LA
 aW
 aW
 aW
@@ -46807,7 +46840,7 @@ aW
 aW
 aW
 aW
-Tf
+cy
 aW
 aW
 aW
