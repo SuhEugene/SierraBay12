@@ -86,7 +86,7 @@
 	if(isScrewdriver(tool) && !locked)
 		open = !open
 		update_icon()
-		to_chat(user, "<span class='notice'>Maintenance panel is now [open ? "opened" : "closed"].</span>")
+		to_chat(user, SPAN_NOTICE("Maintenance panel is now [open ? "opened" : "closed"]."))
 		return TRUE
 
 	else if(isCrowbar(tool) && cell && open)
@@ -104,13 +104,13 @@
 				if(open)
 					adjust_health(10)
 					user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
-					user.visible_message("<span class='warning'>\The [user] repairs \the [src]!</span>","<span class='notice'>You repair \the [src]!</span>")
+					user.visible_message(SPAN_WARNING("\The [user] repairs \the [src]!"), SPAN_NOTICE("You repair \the [src]!"))
 				else
-					to_chat(user, "<span class='notice'>Unable to repair with the maintenance panel closed.</span>")
+					to_chat(user, SPAN_NOTICE("Unable to repair with the maintenance panel closed."))
 			else
-				to_chat(user, "<span class='notice'>[src] does not need a repair.</span>")
+				to_chat(user, SPAN_NOTICE("[src] does not need a repair."))
 		else
-			to_chat(user, "<span class='notice'>Unable to repair while [src] is off.</span>")
+			to_chat(user, SPAN_NOTICE("Unable to repair while [src] is off."))
 		return TRUE
 
 	else if(hasvar(tool, "force") && hasvar(tool, "damtype"))
@@ -171,7 +171,7 @@
 	if(was_on)
 		turn_on()
 
-/obj/vehicle/attack_ai(mob/user as mob)
+/obj/vehicle/attack_ai(mob/user)
 	return
 
 /obj/vehicle/unbuckle_mob(mob/user)
@@ -202,11 +202,11 @@
 		emagged = TRUE
 		if(locked)
 			locked = 0
-			to_chat(user, "<span class='warning'>You bypass [src]'s controls.</span>")
+			to_chat(user, SPAN_WARNING("You bypass [src]'s controls."))
 		return 1
 
 /obj/vehicle/proc/explode()
-	src.visible_message("<span class='danger'>\The [src] blows apart!</span>")
+	src.visible_message(SPAN_DANGER("\The [src] blows apart!"))
 	var/turf/Tsec = get_turf(src)
 
 	new /obj/item/stack/material/rods(Tsec)
@@ -259,13 +259,13 @@
 		return
 	cell = C
 	powercheck()
-	to_chat(usr, "<span class='notice'>You install [C] in [src].</span>")
+	to_chat(usr, SPAN_NOICE("You install [C] in [src]."))
 
 /obj/vehicle/proc/remove_cell(mob/living/carbon/human/H)
 	if(!cell)
 		return
 
-	to_chat(usr, "<span class='notice'>You remove [cell] from [src].</span>")
+	to_chat(usr, SPAN_NOICE("You remove [cell] from [src]."))
 	H.put_in_hands(cell)
 	cell = null
 	powercheck()
@@ -372,7 +372,7 @@
 /obj/vehicle/attack_generic(mob/user, damage, attack_message)
 	if(!damage)
 		return
-	visible_message("<span class='danger'>\The [user] [attack_message] the \the [src]!</span>")
+	visible_message(SPAN_DANGER("\The [user] [attack_message] the \the [src]!"))
 	if(istype(user))
 		admin_attacker_log(user, "attacked \the [src]")
 		user.do_attack_animation(src)
