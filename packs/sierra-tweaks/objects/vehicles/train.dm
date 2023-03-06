@@ -57,13 +57,13 @@
 	if(emagged)
 		if(istype(A, /mob/living))
 			var/mob/living/M = A
-			visible_message("<span class='warning'>[src] knocks over [M]!</span>")
+			visible_message(SPAN_WARNING("[src] knocks over [M]!"))
 			var/def_zone = ran_zone()
 			M.apply_effects(5, 5)				//knock people down if you hit them
 			M.apply_damage(22 / move_delay, DAMAGE_BRUTE, def_zone)	// and do damage according to how fast the train is going
 			if(istype(load, /mob/living/carbon/human))
 				var/mob/living/D = load
-				to_chat(D, "<span class='warning'>You hit [M]!</span>")
+				to_chat(D, SPAN_WARNING("You hit [M]!"))
 				msg_admin_attack("[D.name] ([D.ckey]) hit [M.name] ([M.ckey]) with [src]. (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[src.x];Y=[src.y];Z=[src.z]'>JMP</a>)")
 
 
@@ -97,11 +97,13 @@
 
 	unload(user, direction)
 
-	to_chat(user, "<span class='notice'>You climb down from [src].</span>")
+	to_chat(user, SPAN_NOTICE("You climb down from [src]."))
 
 	return 1
 
-/obj/vehicle/train/MouseDrop_T(atom/movable/C, mob/user as mob)
+/obj/vehicle/train/MouseDrop_T(atom/movable/C, mob/user)
+	if (!istype(user))
+		return
 	if(!CanPhysicallyInteract(user) || !user.Adjacent(C) || !istype(C) || (user == C))
 		return
 	if(istype(C,/obj/vehicle/train))
