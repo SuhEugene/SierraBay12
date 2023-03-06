@@ -17,8 +17,8 @@ GLOBAL_LIST_INIT(recomended_holoplants_colors, list(COLOR_PALE_RED_GRAY,COLOR_BL
 	var/list/colors_clamp = 60
 	var/hologram_opacity = 0.85
 
-	var/tmp/list/possible_states
-	var/tmp/list/emagged_states
+	var/list/possible_states
+	var/list/emagged_states
 
 /obj/structure/holoplant/Initialize()
 	. = ..()
