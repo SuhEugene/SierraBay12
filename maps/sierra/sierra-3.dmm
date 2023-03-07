@@ -11172,6 +11172,9 @@
 /obj/effect/floor_decal/corner/black/border{
 	dir = 1
 	},
+/obj/structure/closet/walllocker/secure_closet{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/iaa)
 "atc" = (
@@ -36496,10 +36499,6 @@
 	},
 /turf/simulated/floor/blackgrid,
 /area/security/nuke_storage)
-"dSy" = (
-/obj/structure/closet/walllocker/secure_closet,
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/heads/office/iaa)
 "dTt" = (
 /obj/machinery/computer/air_control{
 	input_tag = "test_xenoflora_in";
@@ -59760,7 +59759,7 @@ alY
 ans
 aoN
 aql
-dSy
+arz
 atb
 aut
 avR
