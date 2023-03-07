@@ -15905,6 +15905,9 @@
 	name = "AI Core Shield";
 	opacity = 0
 	},
+/obj/machinery/door/window/phoronreinforced{
+	dir = 8
+	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "aCm" = (
@@ -32006,6 +32009,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/machinery/door/window/phoronreinforced{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/rnd/servers)
 "bbJ" = (
@@ -35385,6 +35391,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 8
 	},
+/obj/machinery/door/window/phoronreinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai)
 "bka" = (
@@ -35643,6 +35650,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/machinery/door/window/phoronreinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai)
 "blk" = (
@@ -38648,6 +38656,9 @@
 	_output_on = 1
 	},
 /obj/effect/paint_stripe/turquoise,
+/obj/machinery/door/window/phoronreinforced{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai)
 "kHM" = (
@@ -39153,6 +39164,9 @@
 	dir = 8
 	},
 /obj/effect/paint_stripe/turquoise,
+/obj/machinery/door/window/phoronreinforced{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/turret_protected/ai)
 "lRO" = (
@@ -39636,6 +39650,9 @@
 	dir = 1
 	},
 /obj/machinery/porta_turret,
+/obj/machinery/door/window/phoronreinforced{
+	dir = 4
+	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "nng" = (
@@ -42809,6 +42826,9 @@
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/techfloor{
 	dir = 1
+	},
+/obj/machinery/door/window/phoronreinforced{
+	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)

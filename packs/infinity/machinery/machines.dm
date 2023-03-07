@@ -17,3 +17,7 @@
 
 /obj/machinery/power/apc/high/critical
 	is_critical = 1
+
+/obj/machinery/door/window/phoronreinforced
+	color = GLASS_COLOR_PHORON
+	maxhealth = 300
