@@ -20,4 +20,4 @@
 
 /obj/machinery/door/window/phoronreinforced
 	color = GLASS_COLOR_PHORON
-	maxhealth = 300
+	health_max = 300
