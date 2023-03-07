@@ -15016,6 +15016,8 @@
 /obj/item/roller_bed,
 /obj/item/auto_cpr,
 /obj/item/storage/box/freezer,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
 "yb" = (
@@ -29863,8 +29865,6 @@
 /obj/structure/table/reinforced,
 /obj/random/blood_packs,
 /obj/random/blood_packs,
-/obj/item/bodybag/cryobag,
-/obj/item/bodybag/cryobag,
 /obj/structure/closet/walllocker{
 	pixel_y = 32
 	},
