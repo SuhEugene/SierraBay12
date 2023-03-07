@@ -9020,6 +9020,9 @@
 	icon_state = "0-8"
 	},
 /mob/living/simple_animal/friendly/fox/renault,
+/obj/machinery/camera/network/command{
+	c_tag = "Captain - Break Room"
+	},
 /turf/simulated/floor/carpet/purple,
 /area/crew_quarters/heads/captain/beach)
 "aqK" = (
