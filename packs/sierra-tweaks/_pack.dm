@@ -13,6 +13,7 @@
 
 // Objects
 #include "objects\items\fruit_jar.dm"
+#include "objects\machines\disposal.dm"
 #include "objects\structures\cargo.dm"
 #include "objects\structures\extinguisher_cabinet.dm"
 #include "objects\structures\shotgun_rack.dm"
