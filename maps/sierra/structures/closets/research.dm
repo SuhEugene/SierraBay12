@@ -78,10 +78,22 @@
 		new /datum/atom_creator/simple(/obj/item/storage/backpack/dufflebag, 50)
 	)
 
+/singleton/closet_appearance/secure_closet/science
+	color = COLOR_WHITE
+	decals = list(
+		"upper_side_vent",
+		"lower_side_vent"
+	)
+	extra_decals = list(
+		"sci" = COLOR_PURPLE,
+		"stripe_vertical_right_partial" = COLOR_PURPLE,
+		"stripe_vertical_mid_partial" = COLOR_PURPLE
+	)
+
 /obj/structure/closet/secure_closet/scientist_sierra
 	name = "researcher's locker"
 	req_access = list(access_research)
-	icon_state = "science"
+	closet_appearance = /singleton/closet_appearance/secure_closet/science
 
 /obj/structure/closet/secure_closet/scientist_sierra/WillContain()
 	return list(

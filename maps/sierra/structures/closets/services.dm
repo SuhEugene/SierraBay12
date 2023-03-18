@@ -22,10 +22,16 @@
 		/obj/item/clothing/head/beret/infinity
 	)
 
+/singleton/closet_appearance/secure_closet/hydroponics
+	extra_decals = list(
+		"stripe_vertical_right_partial" = COLOR_GREEN_GRAY,
+		"stripe_vertical_mid_partial" =   COLOR_GREEN_GRAY,
+		"hydro" = COLOR_GREEN_GRAY
+	)
 /obj/structure/closet/secure_closet/hydroponics_sierra //done so that it has no access reqs
 	name = "hydroponics locker"
 	req_access = list()
-	icon_state = "hydro"
+	closet_appearance = /singleton/closet_appearance/secure_closet/hydroponics
 
 /obj/structure/closet/secure_closet/hydroponics_sierra/WillContain()
 	return list(
@@ -76,6 +82,7 @@
 	name = "bar locker"
 	desc = "It's a storage unit for bar equipment."
 	req_access = list(access_bar)
+	closet_appearance = /singleton/closet_appearance/cabinet/secure
 	//open_sound = 'sound/machines/wooden_closet_open.ogg'
 	//close_sound = 'sound/machines/wooden_closet_close.ogg'
 

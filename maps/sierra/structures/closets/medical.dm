@@ -5,7 +5,7 @@
 /obj/structure/closet/secure_closet/CMO_sierra
 	name = "chief medical officer's locker"
 	req_access = list(access_cmo)
-	icon_state = "cmo"
+	closet_appearance = /singleton/closet_appearance/secure_closet/cmo
 
 /obj/structure/closet/secure_closet/CMO_sierra/WillContain()
 	return list(
@@ -34,6 +34,7 @@
 /obj/structure/closet/secure_closet/medical_sierrasenior
 	name = "surgeon's locker"
 	req_access = list(access_senmed)
+	closet_appearance = /singleton/closet_appearance/secure_closet/medical/alt
 
 
 /obj/structure/closet/secure_closet/medical_sierrasenior/WillContain()
@@ -53,7 +54,7 @@
 /obj/structure/closet/secure_closet/medical_sierra
 	name = "doctor's locker"
 	req_access = list(access_medical_equip)
-	icon_state = "med"
+	closet_appearance = /singleton/closet_appearance/secure_closet/medical
 
 /obj/structure/closet/secure_closet/medical_sierra/WillContain()
 	return list(
@@ -70,9 +71,12 @@
 		/obj/item/storage/firstaid/adv,
 	)
 
+/singleton/closet_appearance/wardrobe/medical
+	color = COLOR_OFF_WHITE
+
 /obj/structure/closet/wardrobe/medic_sierra
 	name = "medical wardrobe"
-
+	closet_appearance = /singleton/closet_appearance/wardrobe/medical
 
 /obj/structure/closet/wardrobe/medic_sierra/WillContain()
 	return list(
@@ -83,10 +87,17 @@
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/dufflebag/med, /obj/item/storage/backpack/messenger/med))
 	)
 
+/singleton/closet_appearance/secure_closet/medical/chemistry
+	extra_decals = list(
+		"circle" = COLOR_ORANGE,
+		"stripes_horizontal" = COLOR_ORANGE
+	)
+
 /obj/structure/closet/secure_closet/chemical_sierra
 	name = "chemical closet"
 	desc = "Store dangerous chemicals in here."
 	req_access = list(access_chemistry)
+	closet_appearance = /singleton/closet_appearance/secure_closet/medical/chemistry
 
 /obj/structure/closet/secure_closet/chemical_sierra/WillContain()
 	return list(
