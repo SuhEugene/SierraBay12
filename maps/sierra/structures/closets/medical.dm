@@ -1,6 +1,8 @@
 /*
  * Sierra Medical
  */
+/obj/structure/closet/secure_closet/personal/patient
+	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/patients
 
 /obj/structure/closet/secure_closet/CMO_sierra
 	name = "chief medical officer's locker"
@@ -71,12 +73,9 @@
 		/obj/item/storage/firstaid/adv,
 	)
 
-/singleton/closet_appearance/wardrobe/medical
-	color = COLOR_OFF_WHITE
-
 /obj/structure/closet/wardrobe/medic_sierra
 	name = "medical wardrobe"
-	closet_appearance = /singleton/closet_appearance/wardrobe/medical
+	closet_appearance = /singleton/closet_appearance/wardrobe/sierra/medical
 
 /obj/structure/closet/wardrobe/medic_sierra/WillContain()
 	return list(
@@ -87,17 +86,11 @@
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/dufflebag/med, /obj/item/storage/backpack/messenger/med))
 	)
 
-/singleton/closet_appearance/secure_closet/medical/chemistry
-	extra_decals = list(
-		"circle" = COLOR_ORANGE,
-		"stripes_horizontal" = COLOR_ORANGE
-	)
-
 /obj/structure/closet/secure_closet/chemical_sierra
 	name = "chemical closet"
 	desc = "Store dangerous chemicals in here."
 	req_access = list(access_chemistry)
-	closet_appearance = /singleton/closet_appearance/secure_closet/medical/chemistry
+	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/medical/chemistry
 
 /obj/structure/closet/secure_closet/chemical_sierra/WillContain()
 	return list(

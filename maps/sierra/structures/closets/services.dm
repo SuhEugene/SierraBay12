@@ -6,7 +6,7 @@
 /obj/structure/closet/chefcloset_sierra
 	name = "chef's closet"
 	desc = "It's a storage unit for foodservice equipment."
-
+	closet_appearance = /singleton/closet_appearance/wardrobe/sierra/chef
 
 /obj/structure/closet/chefcloset_sierra/WillContain()
 	return list(
@@ -22,16 +22,10 @@
 		/obj/item/clothing/head/beret/infinity
 	)
 
-/singleton/closet_appearance/secure_closet/hydroponics
-	extra_decals = list(
-		"stripe_vertical_right_partial" = COLOR_GREEN_GRAY,
-		"stripe_vertical_mid_partial" =   COLOR_GREEN_GRAY,
-		"hydro" = COLOR_GREEN_GRAY
-	)
 /obj/structure/closet/secure_closet/hydroponics_sierra //done so that it has no access reqs
 	name = "hydroponics locker"
 	req_access = list()
-	closet_appearance = /singleton/closet_appearance/secure_closet/hydroponics
+	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/hydroponics
 
 /obj/structure/closet/secure_closet/hydroponics_sierra/WillContain()
 	return list(
@@ -51,7 +45,7 @@
 /obj/structure/closet/jcloset/sierra
 	name = "custodial closet"
 	desc = "It's a storage unit for janitorial equipment."
-
+	closet_appearance = /singleton/closet_appearance/wardrobe/sierra/janitor
 
 /obj/structure/closet/jcloset/sierra/WillContain()
 	return list(
