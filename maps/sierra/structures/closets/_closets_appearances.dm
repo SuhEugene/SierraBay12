@@ -15,10 +15,12 @@
 	)
 	extra_decals = list(
 		"stripe_horizontal"  = COLOR_BLUE_GRAY,
-		"stripe_personnel"  = COLOR_BLUE_GRAY
+		"stripe_personnel"  = COLOR_WHITE
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/medical/chemistry
+	color = COLOR_OFF_WHITE
+	decals = list()
 	extra_decals = list(
 		"stripes_horizontal" = COLOR_DARK_ORANGE,
 		"circle" = COLOR_DARK_ORANGE
@@ -138,13 +140,15 @@
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/command
-	color = COLOR_GUNMETAL
+	color = COLOR_WALL_GUNMETAL
+	decals = list(
+		"lower_holes"
+	)
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_CLOSET_GOLD
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/command/adjutant
-	color = COLOR_WALL_GUNMETAL
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_CLOSET_GOLD,
 		"stripe_vertical_right_full" = COLOR_CLOSET_GOLD
@@ -152,9 +156,9 @@
 
 /singleton/closet_appearance/secure_closet/sierra/command/hop
 	extra_decals = list(
-		"stripe_vertical_left_full" = COLOR_CLOSET_GOLD,
-		"stripe_vertical_right_full" = COLOR_CLOSET_GOLD,
-		"command" = COLOR_CLOSET_GOLD
+		"stripe_vertical_left_full" = COLOR_GOLD,
+		"stripe_vertical_right_full" = COLOR_GOLD,
+		"command" = COLOR_GOLD
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/command/captain
@@ -178,6 +182,9 @@
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/corporate/iaa
+	decals = list(
+		"lower_holes"
+	)
 	extra_decals = list(
 		"stripe_vertical_left_full" =  COLOR_OFF_WHITE,
 		"stripe_vertical_right_full" = COLOR_OFF_WHITE,
