@@ -162,6 +162,10 @@
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/command/captain
+	decals = list(
+		"upper_holes",
+		"lower_holes"
+	)
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_CLOSET_GOLD,
 		"stripe_vertical_mid_full" = COLOR_OFF_WHITE,
