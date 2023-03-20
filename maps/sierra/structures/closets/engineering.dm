@@ -5,7 +5,7 @@
 /obj/structure/closet/secure_closet/engineering_chief_sierra
 	name = "chief engineer's locker"
 	req_access = list(access_ce)
-	icon_state = "ce"
+	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/engineering/ce
 
 /obj/structure/closet/secure_closet/engineering_chief_sierra/WillContain()
 	return list(
@@ -39,7 +39,7 @@
 /obj/structure/closet/secure_closet/engineering_senior
 	name = "senior engineer's locker"
 	req_access = list(access_seneng)
-	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/engineering
+	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/engineering/senior
 
 /obj/structure/closet/secure_closet/engineering_senior/WillContain()
 	return list(
@@ -90,7 +90,7 @@
 /obj/structure/closet/secure_closet/engineering_sierra/junior
 	name = " junior engineer's locker"
 	req_access = list(access_engine)
-	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/engineering
+	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/engineering/junior
 
 /obj/structure/closet/secure_closet/engineering_sierra/junior/WillContain()
 	return list(

@@ -1,3 +1,9 @@
+/singleton/closet_appearance/wardrobe
+	extra_decals = list(
+		"stripe_horizontal" = COLOR_PALE_BLUE_GRAY,
+		"stripe_w" = COLOR_WHITE
+	)
+
 /singleton/closet_appearance/sierra/white
 	color = COLOR_OFF_WHITE
 	decals = list()
@@ -33,17 +39,17 @@
 		"lower_side_vent"
 	)
 	extra_decals = list(
-		"stripe_vertical_left_partial"   = COLOR_PURPLE_GRAY,
-		"stripe_vertical_right_partial" = COLOR_PURPLE_GRAY,
-		"sci" = COLOR_PURPLE_GRAY
+		"stripe_vertical_left_partial"   = COLOR_PURPLE,
+		"stripe_vertical_right_partial" = COLOR_PURPLE,
+		"sci" = COLOR_PURPLE
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/science/rd
 	color = COLOR_PURPLE_GRAY
 	extra_decals = list(
-		"stripe_vertical_left_partial"  = COLOR_CLOSET_GOLD,
-		"stripe_vertical_right_partial" = COLOR_CLOSET_GOLD,
-		"sci" = COLOR_CLOSET_GOLD
+		"stripe_vertical_left_partial"  = COLOR_GOLD,
+		"stripe_vertical_right_partial" = COLOR_GOLD,
+		"sci" = COLOR_GOLD
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/science/xenobot
@@ -52,6 +58,18 @@
 		"stripe_vertical_left_partial"  = COLOR_GREEN,
 		"stripe_vertical_right_partial" =  COLOR_GREEN,
 		"sci" = COLOR_GREEN
+	)
+
+/singleton/closet_appearance/secure_closet/sierra/excavation
+	color = COLOR_WARM_YELLOW
+	decals = list(
+		"upper_side_vent",
+		"lower_side_vent"
+	)
+	extra_decals = list(
+		"stripe_vertical_left_full" =  COLOR_BEASTY_BROWN,
+		"stripe_vertical_right_full" = COLOR_BEASTY_BROWN,
+		"research" = COLOR_BEASTY_BROWN
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/cargo/prospector
@@ -81,6 +99,17 @@
 		"cargo_upper" = COLOR_CLOSET_GOLD
 	)
 
+/singleton/closet_appearance/secure_closet/sierra/engineering/junior
+	color = COLOR_YELLOW_GRAY
+	decals = list(
+		"lower_side_vent",
+		"upper_side_vent"
+	)
+	extra_decals = list(
+		"stripe_vertical_mid_partial"   = COLOR_NT_RED,
+		"eng_narrow" = COLOR_NT_RED
+	)
+
 /singleton/closet_appearance/secure_closet/sierra/engineering
 	color = COLOR_YELLOW_GRAY
 	decals = list(
@@ -93,23 +122,38 @@
 		"eng_narrow" = COLOR_NT_RED
 	)
 
-/singleton/closet_appearance/secure_closet/sierra/engineering/atmos
+/singleton/closet_appearance/secure_closet/sierra/engineering/senior
+	color = COLOR_YELLOW_GRAY
+	decals = list(
+		"lower_side_vent",
+		"upper_side_vent"
+	)
 	extra_decals = list(
-		"stripe_vertical_mid_partial"   = COLOR_SKY_BLUE,
-		"stripe_vertical_right_partial" = COLOR_SKY_BLUE,
-		"atmos" = COLOR_SKY_BLUE
+		"stripe_vertical_mid_partial"   = COLOR_BEASTY_BROWN,
+		"stripe_vertical_right_partial" = COLOR_BEASTY_BROWN,
+		"eng_narrow" = COLOR_BEASTY_BROWN
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/engineering/atmos
+	extra_decals = list(
+		"stripe_vertical_mid_partial"   = COLOR_COMMAND_BLUE,
+		"stripe_vertical_right_partial" = COLOR_COMMAND_BLUE,
+		"atmos" = COLOR_COMMAND_BLUE
+	)
+
+/singleton/closet_appearance/secure_closet/sierra/engineering/ce
 	color = COLOR_OFF_WHITE
 	extra_decals = list(
-		"stripe_vertical_mid_partial"   = COLOR_CLOSET_GOLD,
-		"stripe_vertical_right_partial" = COLOR_CLOSET_GOLD,
-		"eng_narrow" = COLOR_CLOSET_GOLD
+		"stripe_vertical_mid_partial"   = COLOR_PALE_ORANGE,
+		"stripe_vertical_right_partial" = COLOR_PALE_ORANGE,
+		"eng_narrow" = COLOR_PALE_ORANGE
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/security
 	color = COLOR_GUNMETAL
+	decals = list(
+		"lower_holes"
+	)
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_NT_RED,
 		"security" = COLOR_NT_RED
@@ -132,6 +176,10 @@
 
 /singleton/closet_appearance/secure_closet/sierra/security/hos
 	color = COLOR_WALL_GUNMETAL
+	decals = list(
+		"upper_holes",
+		"lower_holes"
+	)
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_NT_RED,
 		"stripe_vertical_mid_full" = COLOR_CLOSET_GOLD,
@@ -167,9 +215,9 @@
 		"lower_holes"
 	)
 	extra_decals = list(
-		"stripe_vertical_left_full" = COLOR_CLOSET_GOLD,
+		"stripe_vertical_left_full" = COLOR_GOLD,
 		"stripe_vertical_mid_full" = COLOR_OFF_WHITE,
-		"stripe_vertical_right_full" = COLOR_CLOSET_GOLD,
+		"stripe_vertical_right_full" = COLOR_GOLD,
 		"command" = COLOR_OFF_WHITE
 	)
 
@@ -196,35 +244,47 @@
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/exploration
+	color = COLOR_WALL_GUNMETAL
+	decals = list(
+		"lower_holes"
+	)
 	extra_decals = list(
-		"stripe_vertical_mid_full" = COLOR_PURPLE,
-		"exped" = COLOR_PURPLE
+		"stripe_vertical_mid_full" = COLOR_PURPLE_GRAY,
+		"exped" = COLOR_PURPLE_GRAY
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/exploration/med
+	decals = list(
+		"lower_side_vent",
+		"upper_side_vent"
+	)
 	extra_decals = list(
-		"stripe_vertical_mid_partial" = COLOR_PURPLE,
-		"medcircle" = COLOR_PURPLE
+		"stripe_vertical_mid_partial" = COLOR_PURPLE_GRAY,
+		"medcircle" = COLOR_PURPLE_GRAY
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/exploration/eng
+	decals = list(
+		"lower_side_vent",
+		"upper_side_vent"
+	)
 	extra_decals = list(
-		"stripe_vertical_mid_partial" = COLOR_PURPLE,
-		"eng" = COLOR_PURPLE
+		"stripe_vertical_mid_partial" = COLOR_PURPLE_GRAY,
+		"eng" = COLOR_PURPLE_GRAY
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/exploration/pilot
 	extra_decals = list(
-		"stripe_vertical_left_full" = COLOR_PURPLE,
-		"stripe_vertical_right_full" = COLOR_PURPLE,
-		"exped" = COLOR_PURPLE
+		"stripe_vertical_left_full" = COLOR_PURPLE_GRAY,
+		"stripe_vertical_right_full" = COLOR_PURPLE_GRAY,
+		"exped" = COLOR_PURPLE_GRAY
 	)
 
 /singleton/closet_appearance/secure_closet/sierra/exploration/leader
 	extra_decals = list(
-		"stripe_vertical_left_full" = COLOR_PURPLE,
+		"stripe_vertical_left_full" = COLOR_PURPLE_GRAY,
 		"stripe_vertical_mid_full" = COLOR_GOLD,
-		"stripe_vertical_right_full" = COLOR_PURPLE,
+		"stripe_vertical_right_full" = COLOR_PURPLE_GRAY,
 		"exped" = COLOR_GOLD
 	)
 
