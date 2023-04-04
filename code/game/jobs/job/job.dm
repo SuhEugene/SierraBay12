@@ -57,6 +57,8 @@
 
 	var/required_role = null //a role which necessery to join as the job. For an example, explorers cannot be without EL
 
+	var/faction = MOB_FACTION_CREW
+
 /datum/job/New()
 
 	if(prob(100-availablity_chance))	//Close positions, blah blah.

@@ -679,8 +679,17 @@
 /mob/proc/is_ready()
 	return client && !!mind
 
-/mob/proc/get_gender()
-	return gender
+
+/mob/choose_from_pronouns()
+	if(!pronouns)
+		var/datum/gender/G = gender_datums[gender]
+		return G
+	else
+		var/datum/pronouns/P = GLOB.pronouns.by_key[pronouns]
+		if(P.types)
+			P = GLOB.pronouns.by_key[pick(P.types)]
+		return P
+
 
 /mob/proc/see(message)
 	if(!is_active())
@@ -1231,7 +1240,6 @@
 
 /mob/keybind_face_direction(direction)
 	facedir(direction)
-
 
 /mob/verb/introduce()
 	set category = "IC"
