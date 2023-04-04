@@ -59,7 +59,6 @@
 
 	var/faction = MOB_FACTION_CREW
 
-
 /datum/job/New()
 
 	if(prob(100-availablity_chance))	//Close positions, blah blah.
