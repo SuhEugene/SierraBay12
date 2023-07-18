@@ -57,6 +57,8 @@ var/global/ascii_reset = "[ascii_esc]\[0m"
 	var/async = 0       // If the check can be left to do it's own thing, you must define a check_result() proc if you use this.
 	var/reported = 0	// If it's reported a success or failure.  Any tests that have not are assumed to be failures.
 	var/why_disabled = "No reason set."   // If we disable a unit test we will display why so it reminds us to check back on it later.
+	var/focus = FALSE
+	var/list/messages_log
 
 	var/safe_landmark
 	var/space_landmark
@@ -65,21 +67,31 @@ var/global/ascii_reset = "[ascii_esc]\[0m"
 	log_unit_test("[ascii_yellow]---  DEBUG  --- \[[name]\]: [message][ascii_reset]")
 
 /datum/unit_test/proc/log_bad(message)
+	LAZYADD(messages_log, message)
 	log_unit_test("[ascii_red]\[[name]\]: [message][ascii_reset]")
+
+#ifdef UNIT_TEST
+	#define UNIT_TEST_RESULT(status, message, name) SSunit_tests.test_results[name] = list("status" = status, "message" = message, "name" = name)
+#else
+	#define UNIT_TEST_RESULT(status, message, name)
+#endif
 
 /datum/unit_test/proc/fail(message)
 	all_unit_tests_passed = 0
 	failed_unit_tests++
 	reported = 1
+	UNIT_TEST_RESULT(UNIT_TEST_FAILED, jointext((list(message) + messages_log), "\n"), type)
 	log_unit_test("[ascii_red]!!! FAILURE !!! \[[name]\]: [message][ascii_reset]")
 
 /datum/unit_test/proc/pass(message)
 	reported = 1
+	UNIT_TEST_RESULT(UNIT_TEST_PASSED, message, type)
 	log_unit_test("[ascii_green]*** SUCCESS *** \[[name]\]: [message][ascii_reset]")
 
 /datum/unit_test/proc/skip(message)
 	skipped_unit_tests++
 	reported = 1
+	UNIT_TEST_RESULT(UNIT_TEST_SKIPPED, message, type)
 	log_unit_test("[ascii_yellow]--- SKIPPED --- \[[name]\]: [message][ascii_reset]")
 
 /datum/unit_test/proc/start_test()
@@ -120,11 +132,17 @@ var/global/ascii_reset = "[ascii_esc]\[0m"
 /proc/get_test_datums()
 	RETURN_TYPE(/list)
 	. = list()
+	var/list/focused_tests = list()
 	for(var/test in subtypesof(/datum/unit_test))
 		var/datum/unit_test/d = test
 		if(test == initial(d.template))
 			continue
+		if (initial(d.focus))
+			focused_tests += d
 		. += d
+
+	if (length(focused_tests))
+		return focused_tests
 
 /proc/do_unit_test(datum/unit_test/test, end_time, skip_disabled_tests = TRUE)
 	if(test.disabled && skip_disabled_tests)

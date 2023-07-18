@@ -8,6 +8,7 @@ SUBSYSTEM_DEF(unit_tests)
 	runlevels = (RUNLEVELS_DEFAULT | RUNLEVEL_LOBBY)
 	var/list/queue = list()
 	var/list/async_tests = list()
+	var/list/test_results = list()
 	var/list/current_async
 	var/stage = 1
 	var/end_unit_tests
@@ -127,5 +128,6 @@ SUBSYSTEM_DEF(unit_tests)
 
 		if (6)	// Finalization.
 			unit_test_final_message()
+			write_unit_test_results(test_results)
 			log_unit_test("Caught [GLOB.total_runtimes] Runtime\s.")
 			del world

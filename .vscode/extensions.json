@@ -4,6 +4,7 @@
     "platymuus.dm-langclient",
     "rome.rome",
     "eamodio.gitlens",
-    "anturk.dmi-editor"
+    "anturk.dmi-editor",
+    "Donkie.vscode-tgstation-test-adapter"
   ]
 }

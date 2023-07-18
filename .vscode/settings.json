@@ -45,5 +45,11 @@
     "--ignore-revs-file", ".git-blame-ignore-revs"
   ],
 
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "tgstationTestExplorer.project.defines": [
+    "#define UNIT_TEST"
+  ],
+  "tgstationTestExplorer.project.DMEName": "baystation12.dme",
+  "tgstationTestExplorer.project.unitTestsDefinitionRegex": "/?datum/unit_test/(?!template)([\\w/]+)/start_test\\s*\\(",
+  "tgstationTestExplorer.project.unitTestsFocusDefine": "TEST_FOCUS($0)"
 }

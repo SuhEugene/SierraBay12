@@ -107,6 +107,11 @@ var/global/log_end= world.system_type == UNIX ? ascii2text(13) : ""
 	to_world_log("## UNIT_TEST ##: [text]")
 	log_debug(text)
 
+/proc/write_unit_test_results(list/test_results)
+	var/filename = "data/unit_tests.json"
+	fdel(filename)
+	file(filename) << json_encode(test_results)
+
 
 //This replaces world.log so it displays both in DD and the file
 /proc/log_world(text)
