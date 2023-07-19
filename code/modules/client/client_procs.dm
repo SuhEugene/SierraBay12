@@ -495,3 +495,14 @@
 
 		pct += delta
 		winset(src, "mainwindow.mainvsplit", "splitter=[pct]")
+
+/client/verb/toggle_status_bar()
+	set name = "Toggle Status Bar"
+	set category = "OOC"
+
+	var/is_shown = winget(usr, "mapwindow.statusbar", "is-visible") == "true"
+
+	if (is_shown)
+		winset(usr, "mapwindow.statusbar", "is-visible=false")
+	else
+		winset(usr, "mapwindow.statusbar", "is-visible=true")
