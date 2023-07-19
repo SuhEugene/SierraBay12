@@ -104,9 +104,6 @@
 	if(machine)
 		machine.on_user_login(src)
 
-	//set macro to normal incase it was overriden (like cyborg currently does)
-	winset(src, null, "mainwindow.macro=macro hotkey_toggle.is-checked=false input.focus=true input.background-color=#d3b5b5")
-
 /mob/living/carbon/Login()
 	. = ..()
 	if(internals && internal)
