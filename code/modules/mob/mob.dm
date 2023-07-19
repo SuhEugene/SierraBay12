@@ -1219,6 +1219,16 @@
 		return 0
 	return 1
 
+/// Update the mouse pointer of the attached client in this mob.
+/mob/proc/update_mouse_pointer()
+	if(!client)
+		return
+
+	client.mouse_pointer_icon = initial(client.mouse_pointer_icon)
+
+	if(examine_cursor_icon && client.keys_held["Shift"])
+		client.mouse_pointer_icon = examine_cursor_icon
+
 /mob/proc/check_emissive_equipment()
 	var/old_zflags = z_flags
 	z_flags &= ~ZMM_MANGLE_PLANES
