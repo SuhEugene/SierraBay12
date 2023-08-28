@@ -59,9 +59,17 @@ var/global/datum/controller/master/Master = new
 	var/const/tick_limit_to_run = 78
 	var/const/tick_limit_mc = 70
 
+	#ifdef OPENDREAM
+		#define tick_limit_default 80
+	#endif
+
 	//current tick limit, assigned before running a subsystem.
 	//used by CHECK_TICK as well so that the procs subsystems call can obey that SS's tick limits
 	var/static/current_ticklimit = tick_limit_default
+
+	#ifdef OPENDREAM
+		#undef tick_limit_default
+	#endif
 
 
 /datum/controller/master/New()

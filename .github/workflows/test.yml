@@ -53,6 +53,28 @@ jobs:
       #     wget https://raw.githubusercontent.com/DiscordHooks/github-actions-discord-webhook/master/send.sh
       #     chmod +x send.sh
       #     ./send.sh failure $WEBHOOK_URL
+  OpenDreamLinter:
+    runs-on: ubuntu-latest
+    needs:
+    - PreFlight
+    - DreamChecker
+    if: needs.PreFlight.outputs.dm == 'true'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/OpenDream
+          key: ${{ runner.os }}-opendream
+      - name: Setup OD Lint
+        run: bash test/setup-od.sh
+      - name: Run OpenDream Lint
+        run: bash test/run-od.sh > ${GITHUB_WORKSPACE}/output-annotations.txt 2>&1
+      - name: Annotate Lints
+        if: success() || failure()
+        uses: SierraBay/OpenDreamAnnotate@master
+        with:
+          outputFile: output-annotations.txt
   Code:
     runs-on: ubuntu-latest
     needs:
