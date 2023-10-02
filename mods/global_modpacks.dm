@@ -1,4 +1,5 @@
 // SIERRA TODO: GET RID OF IT!!!
+#include "body_markings/_body_markings.dme"
 #include "don_loadout/_don_loadout.dme"
 #include "eris_announcer/_eris_announcer.dme"
 #include "ex666_ecosystem/_ex666_ecosystem.dme"
