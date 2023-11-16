@@ -81,7 +81,13 @@ GLOBAL_VAR(href_logfile)
 
 	SetupLogs()
 	var/date_string = time2text(world.realtime, "YYYY/MM/DD")
-	to_file(global.diary, "[log_end]\n[log_end]\nStarting up. (ID: [game_id]) [time2text(world.timeofday, "hh:mm.ss")][log_end]\n---------------------[log_end]")
+	// [SIERRA-EDIT] - RUST_G
+	// to_file(global.diary, "[log_end]\n[log_end]\nStarting up. (ID: [game_id]) [time2text(world.timeofday, "hh:mm.ss")][log_end]\n---------------------[log_end]") // SIERRA-EDIT - ORIGINAL
+
+	// Do not use `game_log` anywhere else! Use `log_game`!
+	game_log(global.diary, "\n\nStarting up. (ID: [game_id]) [time2text(world.timeofday, "hh:mm.ss")]\n---------------------")
+	// [/SIERRA-EDIT]
+
 
 	if (config)
 		if (config.server_name)

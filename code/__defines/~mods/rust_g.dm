@@ -148,6 +148,9 @@
 #define rustg_log_write(fname, text, format) RUSTG_CALL(RUST_G, "log_write")(fname, text, format)
 /proc/rustg_log_close_all() return RUSTG_CALL(RUST_G, "log_close_all")()
 
+#define rustg_log_write_formatted(log, text) rustg_log_write(log, text, "true")
+#define rustg_log_write_no_format(log, text) rustg_log_write(log, text, "false")
+
 #define rustg_noise_get_at_coordinates(seed, x, y) RUSTG_CALL(RUST_G, "noise_get_at_coordinates")(seed, x, y)
 
 #define rustg_sql_connect_pool(options) RUSTG_CALL(RUST_G, "sql_connect_pool")(options)
