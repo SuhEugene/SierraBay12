@@ -83,8 +83,6 @@ GLOBAL_VAR(href_logfile)
 	var/date_string = time2text(world.realtime, "YYYY/MM/DD")
 	// [SIERRA-EDIT] - RUST_G
 	// to_file(global.diary, "[log_end]\n[log_end]\nStarting up. (ID: [game_id]) [time2text(world.timeofday, "hh:mm.ss")][log_end]\n---------------------[log_end]") // SIERRA-EDIT - ORIGINAL
-
-	// Do not use `game_log` anywhere else! Use `log_game`!
 	rustg_log_write_formatted("[GLOB.log_directory]/game.log", "Starting up. (ID: [game_id])\n---------------------------")
 	// [/SIERRA-EDIT]
 
@@ -125,7 +123,12 @@ GLOBAL_VAR_INIT(world_topic_last, world.timeofday)
 
 
 /world/Topic(T, addr, master, key)
-	to_file(global.diary, "TOPIC: \"[T]\", from:[addr], master:[master], key:[key][log_end]")
+	// [SIERRA-EDIT] - RUST_G
+	// to_file(global.diary, "TOPIC: \"[T]\", from:[addr], master:[master], key:[key][log_end]") // SIERRA-EDIT - ORIGINAL
+
+	// Currently we have no need in topic log
+	// game_log("TOPIC","url:\"[T]\", from:[addr], master:[master], key:[key][log_end]" )
+	// [/SIERRA-EDIT]
 
 	if (GLOB.world_topic_last > world.timeofday)
 		GLOB.world_topic_throttle = list() //probably passed midnight
