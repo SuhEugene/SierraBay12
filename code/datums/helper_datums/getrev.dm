@@ -27,7 +27,7 @@ var/global/datum/getrev/revdata = new()
 			break
 	*/
 	// [/SIERRA-REMOVE]
-	// [SIERRA-ADD]
+	// [SIERRA-ADD] - RUST_G
 	revision = rustg_git_revparse("HEAD")
 	date = rustg_git_commit_date("HEAD")
 	// [/SIERRA-ADD]

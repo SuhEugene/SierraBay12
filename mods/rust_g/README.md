@@ -28,7 +28,14 @@ ID мода: RUST_G
 
 ### Изменения *кор кода*
 
-- `code/modules/mob/living.dm`: `proc/overriden_proc`, `var/overriden_var`
+- `code/_helpers/logging.dm`: `/proc/game_log()`
+- `code/controllers/master.dm`: `/datum/controller/master/New()`
+- `code/controllers/subsystems/garbage.dm`: `/datum/controller/subsystem/garbage/Shutdown()`
+- `code/datums/helper_datums/getrev.dm`: `/datum/getrev/New()`
+- `code/game/world.dm`:
+  - `/world/New()`
+  - `/world/Topic()`
+  - `/world/Reboot()`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -39,8 +46,7 @@ ID мода: RUST_G
 
 ### Оверрайды
 
-- `mods/_master_files/sound/my_cool_sound.ogg`
-- `mods/_master_files/code/my_modular_override.dm`: `proc/overriden_proc`, `var/overriden_var`
+- Отсутствуют
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`

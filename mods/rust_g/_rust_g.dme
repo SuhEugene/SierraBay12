@@ -3,6 +3,4 @@
 
 #include "_rust_g.dm"
 
-#include "code/helpers.dm"
-
 #endif
