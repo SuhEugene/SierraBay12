@@ -142,10 +142,10 @@
 		return
 	next_move = world.time + max(1, mob.movement_delay())
 
-/datum/movement_handler/mob/delay/MayMove(mover, is_external)
-	if(IS_NOT_SELF(mover) && is_external)
+/datum/movement_handler/mob/delay/MayMove(mob/mover, is_external)
+	if(IS_NOT_SELF(mover))
 		return MOVEMENT_PROCEED
-	return ((mover && mover != mob) ||  world.time >= next_move) ? MOVEMENT_PROCEED : MOVEMENT_STOP
+	return (world.time >= next_move) ? MOVEMENT_PROCEED : MOVEMENT_STOP
 
 /datum/movement_handler/mob/delay/proc/SetDelay(delay)
 	next_move = max(next_move, world.time + delay)
