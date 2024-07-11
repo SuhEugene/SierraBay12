@@ -4,7 +4,6 @@
 #define SET_THROTTLE(TIME, REASON) throttle[1] = base_throttle + (TIME); throttle[2] = (REASON);
 
 
-
 var/global/game_id = randhex(8)
 
 GLOBAL_VAR(href_logfile)
